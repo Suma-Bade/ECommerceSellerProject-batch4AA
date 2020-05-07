@@ -1,0 +1,1154 @@
+2020-04-30 09:36:37.5517 Info Message Template Auto Format enabled
+2020-04-30 09:36:37.5634 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 09:36:37.7817 Info Adding target FileTarget(Name=alldata)
+2020-04-30 09:36:37.7817 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 09:36:37.8341 Info Found 45 configuration items
+2020-04-30 09:36:37.8631 Info Configuration initialized.
+2020-04-30 09:36:37.8631 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.8.10751. Product version: 4.6.8.
+2020-04-30 09:36:39.7643 Info AppDomain Shutting down. Logger closing...
+2020-04-30 09:36:39.8179 Info Logger has been shut down.
+2020-04-30 09:37:21.0144 Info Message Template Auto Format enabled
+2020-04-30 09:37:21.1585 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 09:37:21.6919 Info Adding target FileTarget(Name=alldata)
+2020-04-30 09:37:21.8235 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 09:37:21.9918 Info Found 45 configuration items
+2020-04-30 09:58:11.0431 Info Message Template Auto Format enabled
+2020-04-30 09:58:11.0877 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 09:58:11.2805 Info Adding target FileTarget(Name=alldata)
+2020-04-30 09:58:11.2805 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 09:58:11.3139 Info Found 45 configuration items
+2020-04-30 09:58:13.4462 Info AppDomain Shutting down. Logger closing...
+2020-04-30 09:58:13.4791 Info Logger has been shut down.
+2020-04-30 09:58:43.5703 Info Message Template Auto Format enabled
+2020-04-30 09:58:43.7225 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 09:58:43.9312 Info Adding target FileTarget(Name=alldata)
+2020-04-30 09:58:43.9900 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 09:58:44.1129 Info Found 45 configuration items
+2020-04-30 09:58:46.1120 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-04-30 09:58:46.2131 Info Message Template Auto Format enabled
+2020-04-30 09:58:46.2212 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 09:58:46.2893 Info Adding target FileTarget(Name=alldata)
+2020-04-30 09:58:46.3072 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 09:58:46.3202 Info Closing old configuration.
+2020-04-30 09:58:46.4285 Info Found 45 configuration items
+2020-04-30 10:25:39.1769 Info Message Template Auto Format enabled
+2020-04-30 10:25:39.2650 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:25:39.5244 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:25:39.5274 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:25:39.5686 Info Found 45 configuration items
+2020-04-30 10:25:41.2397 Info AppDomain Shutting down. Logger closing...
+2020-04-30 10:25:41.2830 Info Logger has been shut down.
+2020-04-30 10:26:02.2226 Info Message Template Auto Format enabled
+2020-04-30 10:26:02.2785 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:26:02.4136 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:26:02.4401 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:26:02.5200 Info Found 45 configuration items
+2020-04-30 10:26:03.8012 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-04-30 10:26:03.8283 Info Message Template Auto Format enabled
+2020-04-30 10:26:03.8630 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:26:03.9177 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:26:03.9177 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:26:03.9611 Info Closing old configuration.
+2020-04-30 10:26:04.0239 Info Found 45 configuration items
+2020-04-30 10:28:36.7387 Info Message Template Auto Format enabled
+2020-04-30 10:28:37.0152 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:28:37.3910 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:28:37.4152 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:28:37.5321 Info Found 45 configuration items
+2020-04-30 10:28:39.5435 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-04-30 10:28:39.5435 Info Message Template Auto Format enabled
+2020-04-30 10:28:39.5435 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:28:39.5724 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:28:39.5775 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:28:39.5775 Info Closing old configuration.
+2020-04-30 10:28:39.6343 Info Found 45 configuration items
+2020-04-30 10:39:41.7330 Info Message Template Auto Format enabled
+2020-04-30 10:39:41.7576 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:39:41.8482 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:39:41.8482 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:39:41.8934 Info Found 45 configuration items
+2020-04-30 10:39:43.3909 Info AppDomain Shutting down. Logger closing...
+2020-04-30 10:39:43.4196 Info Logger has been shut down.
+2020-04-30 10:40:04.9869 Info Message Template Auto Format enabled
+2020-04-30 10:40:05.0659 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:40:05.3210 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:40:05.3598 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:40:05.4512 Info Found 45 configuration items
+2020-04-30 10:40:07.1997 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-04-30 10:40:07.2235 Info Message Template Auto Format enabled
+2020-04-30 10:40:07.2235 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:40:07.2353 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:40:07.2353 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:40:07.2472 Info Closing old configuration.
+2020-04-30 10:40:07.2822 Info Found 45 configuration items
+2020-04-30 10:45:55.6307 Info Message Template Auto Format enabled
+2020-04-30 10:45:55.6365 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:45:55.6749 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:45:55.6749 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:45:55.7091 Info Found 45 configuration items
+2020-04-30 10:45:56.1606 Info AppDomain Shutting down. Logger closing...
+2020-04-30 10:45:56.1721 Info Logger has been shut down.
+2020-04-30 10:46:02.1655 Info Message Template Auto Format enabled
+2020-04-30 10:46:02.2127 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:46:02.3416 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:46:02.3612 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:46:02.4207 Info Found 45 configuration items
+2020-04-30 10:46:03.3056 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-04-30 10:46:03.3110 Info Message Template Auto Format enabled
+2020-04-30 10:46:03.3110 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 10:46:03.3110 Info Adding target FileTarget(Name=alldata)
+2020-04-30 10:46:03.3277 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 10:46:03.3277 Info Closing old configuration.
+2020-04-30 10:46:03.3773 Info Found 45 configuration items
+2020-04-30 14:22:50.1015 Info Message Template Auto Format enabled
+2020-04-30 14:22:50.1754 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 14:22:50.4091 Info Adding target FileTarget(Name=alldata)
+2020-04-30 14:22:50.4091 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 14:22:50.4491 Info Found 45 configuration items
+2020-04-30 14:22:52.6679 Info AppDomain Shutting down. Logger closing...
+2020-04-30 14:22:52.7041 Info Logger has been shut down.
+2020-04-30 14:45:07.5548 Info Message Template Auto Format enabled
+2020-04-30 14:45:07.6423 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-30 14:45:07.7592 Info Adding target FileTarget(Name=alldata)
+2020-04-30 14:45:07.7592 Info Adding target FileTarget(Name=otherFile-web)
+2020-04-30 14:45:07.8415 Info Found 45 configuration items
+2020-04-30 14:45:11.8900 Info AppDomain Shutting down. Logger closing...
+2020-04-30 14:45:11.9389 Info Logger has been shut down.
+2020-05-04 09:26:26.4331 Info Message Template Auto Format enabled
+2020-05-04 09:26:26.4745 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 09:26:26.6680 Info Adding target FileTarget(Name=alldata)
+2020-05-04 09:26:26.6680 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 09:26:26.7115 Info Found 45 configuration items
+2020-05-04 09:26:28.8996 Info AppDomain Shutting down. Logger closing...
+2020-05-04 09:26:28.9284 Info Logger has been shut down.
+2020-05-04 09:54:47.3392 Info Message Template Auto Format enabled
+2020-05-04 09:54:47.3839 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 09:54:47.5708 Info Adding target FileTarget(Name=alldata)
+2020-05-04 09:54:47.5708 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 09:54:47.6087 Info Found 45 configuration items
+2020-05-04 09:54:49.7957 Info AppDomain Shutting down. Logger closing...
+2020-05-04 09:54:49.8330 Info Logger has been shut down.
+2020-05-04 09:55:47.8361 Info Message Template Auto Format enabled
+2020-05-04 09:55:48.1146 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 09:55:48.5092 Info Adding target FileTarget(Name=alldata)
+2020-05-04 09:55:48.5528 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 09:55:48.6536 Info Found 45 configuration items
+2020-05-04 09:55:54.4379 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 09:55:54.4715 Info Message Template Auto Format enabled
+2020-05-04 09:55:54.4715 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 09:55:54.4875 Info Adding target FileTarget(Name=alldata)
+2020-05-04 09:55:54.4875 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 09:55:54.4875 Info Closing old configuration.
+2020-05-04 09:55:54.5517 Info Found 45 configuration items
+2020-05-04 10:05:47.6266 Info Message Template Auto Format enabled
+2020-05-04 10:05:47.7966 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:05:48.0388 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:05:48.0743 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:05:48.1579 Info Found 45 configuration items
+2020-05-04 10:05:49.8035 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 10:05:49.8384 Info Message Template Auto Format enabled
+2020-05-04 10:05:49.8488 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:05:49.8488 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:05:49.8633 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:05:49.8633 Info Closing old configuration.
+2020-05-04 10:05:49.9142 Info Found 45 configuration items
+2020-05-04 10:09:47.5642 Info Message Template Auto Format enabled
+2020-05-04 10:09:47.5991 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:09:47.7009 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:09:47.7159 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:09:47.7669 Info Found 45 configuration items
+2020-05-04 10:09:48.2140 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 10:09:48.2140 Info Message Template Auto Format enabled
+2020-05-04 10:09:48.2236 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:09:48.2236 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:09:48.2236 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:09:48.2393 Info Closing old configuration.
+2020-05-04 10:09:48.2986 Info Found 45 configuration items
+2020-05-04 10:13:18.3327 Info Message Template Auto Format enabled
+2020-05-04 10:13:18.3781 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:13:18.4715 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:13:18.4990 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:13:18.5407 Info Found 45 configuration items
+2020-05-04 10:13:19.0700 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 10:13:19.0700 Info Message Template Auto Format enabled
+2020-05-04 10:13:19.0833 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:13:19.0833 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:13:19.1042 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:13:19.1042 Info Closing old configuration.
+2020-05-04 10:13:19.1460 Info Found 45 configuration items
+2020-05-04 10:17:42.4841 Info Message Template Auto Format enabled
+2020-05-04 10:17:42.5375 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:17:42.7450 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:17:42.8174 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:17:42.9141 Info Found 45 configuration items
+2020-05-04 10:17:43.9258 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 10:17:43.9508 Info Message Template Auto Format enabled
+2020-05-04 10:17:43.9856 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:17:43.9950 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:17:44.0041 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:17:44.0041 Info Closing old configuration.
+2020-05-04 10:17:44.0531 Info Found 45 configuration items
+2020-05-04 10:32:42.4624 Info Message Template Auto Format enabled
+2020-05-04 10:32:42.4855 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:32:42.5246 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:32:42.5246 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:32:42.5477 Info Found 45 configuration items
+2020-05-04 10:32:42.8060 Info AppDomain Shutting down. Logger closing...
+2020-05-04 10:32:42.8163 Info Logger has been shut down.
+2020-05-04 10:32:49.4703 Info Message Template Auto Format enabled
+2020-05-04 10:32:49.5879 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:32:49.6921 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:32:49.7161 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:32:49.8176 Info Found 45 configuration items
+2020-05-04 10:32:50.8670 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 10:32:50.8970 Info Message Template Auto Format enabled
+2020-05-04 10:32:50.9128 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:32:50.9128 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:32:50.9128 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:32:50.9322 Info Closing old configuration.
+2020-05-04 10:32:50.9666 Info Found 45 configuration items
+2020-05-04 10:34:53.9201 Info Message Template Auto Format enabled
+2020-05-04 10:34:53.9733 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:34:54.1077 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:34:54.1250 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:34:54.1928 Info Found 45 configuration items
+2020-05-04 10:34:54.8247 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 10:34:54.8338 Info Message Template Auto Format enabled
+2020-05-04 10:34:54.8338 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:34:54.8469 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:34:54.8469 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:34:54.8469 Info Closing old configuration.
+2020-05-04 10:34:54.8861 Info Found 45 configuration items
+2020-05-04 10:36:33.3050 Info Message Template Auto Format enabled
+2020-05-04 10:36:33.3558 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:36:33.4849 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:36:33.5098 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:36:33.6282 Info Found 45 configuration items
+2020-05-04 10:36:34.1317 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 10:36:34.1317 Info Message Template Auto Format enabled
+2020-05-04 10:36:34.1462 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:36:34.1462 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:36:34.1605 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:36:34.1605 Info Closing old configuration.
+2020-05-04 10:36:34.2059 Info Found 45 configuration items
+2020-05-04 10:38:23.7921 Info Message Template Auto Format enabled
+2020-05-04 10:38:23.7921 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:38:23.8381 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:38:23.8381 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:38:23.8600 Info Found 45 configuration items
+2020-05-04 10:38:24.1966 Info AppDomain Shutting down. Logger closing...
+2020-05-04 10:38:24.2074 Info Logger has been shut down.
+2020-05-04 10:38:27.1466 Info Message Template Auto Format enabled
+2020-05-04 10:38:27.1933 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:38:27.2932 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:38:27.3226 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:38:27.3941 Info Found 45 configuration items
+2020-05-04 10:38:28.2034 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 10:38:28.2246 Info Message Template Auto Format enabled
+2020-05-04 10:38:28.2246 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 10:38:28.2464 Info Adding target FileTarget(Name=alldata)
+2020-05-04 10:38:28.2530 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 10:38:28.2530 Info Closing old configuration.
+2020-05-04 10:38:28.3011 Info Found 45 configuration items
+2020-05-04 11:07:00.7910 Info Message Template Auto Format enabled
+2020-05-04 11:07:00.7910 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 11:07:00.8382 Info Adding target FileTarget(Name=alldata)
+2020-05-04 11:07:00.8382 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 11:07:00.8621 Info Found 45 configuration items
+2020-05-04 11:07:01.1304 Info AppDomain Shutting down. Logger closing...
+2020-05-04 11:07:01.1304 Info Logger has been shut down.
+2020-05-04 11:07:04.4987 Info Message Template Auto Format enabled
+2020-05-04 11:07:04.5536 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 11:07:04.6522 Info Adding target FileTarget(Name=alldata)
+2020-05-04 11:07:04.6710 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 11:07:04.8286 Info Found 45 configuration items
+2020-05-04 11:07:05.9032 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 11:07:05.9332 Info Message Template Auto Format enabled
+2020-05-04 11:07:05.9416 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 11:07:05.9416 Info Adding target FileTarget(Name=alldata)
+2020-05-04 11:07:05.9416 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 11:07:05.9592 Info Closing old configuration.
+2020-05-04 11:07:05.9916 Info Found 45 configuration items
+2020-05-04 13:55:36.0215 Info Message Template Auto Format enabled
+2020-05-04 13:55:36.0776 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 13:55:36.2968 Info Adding target FileTarget(Name=alldata)
+2020-05-04 13:55:36.2968 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 13:55:36.3451 Info Found 45 configuration items
+2020-05-04 13:55:40.3344 Info AppDomain Shutting down. Logger closing...
+2020-05-04 13:55:40.4024 Info Logger has been shut down.
+2020-05-04 13:56:31.8763 Info Message Template Auto Format enabled
+2020-05-04 13:56:31.9681 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 13:56:32.1305 Info Adding target FileTarget(Name=alldata)
+2020-05-04 13:56:32.1594 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 13:56:32.2187 Info Found 45 configuration items
+2020-05-04 13:56:33.7856 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 13:56:33.7856 Info Message Template Auto Format enabled
+2020-05-04 13:56:33.7856 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 13:56:33.8067 Info Adding target FileTarget(Name=alldata)
+2020-05-04 13:56:33.8162 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 13:56:33.8162 Info Closing old configuration.
+2020-05-04 13:56:33.8553 Info Found 45 configuration items
+2020-05-04 14:30:53.0208 Info Message Template Auto Format enabled
+2020-05-04 14:30:53.0773 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 14:30:53.2648 Info Adding target FileTarget(Name=alldata)
+2020-05-04 14:30:53.3085 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 14:30:53.4513 Info Found 45 configuration items
+2020-05-04 14:30:54.1712 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 14:30:54.1798 Info Message Template Auto Format enabled
+2020-05-04 14:30:54.1798 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 14:30:54.1927 Info Adding target FileTarget(Name=alldata)
+2020-05-04 14:30:54.1927 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 14:30:54.2062 Info Closing old configuration.
+2020-05-04 14:30:54.2751 Info Found 45 configuration items
+2020-05-04 14:33:47.7904 Info Message Template Auto Format enabled
+2020-05-04 14:33:47.7904 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 14:33:47.8349 Info Adding target FileTarget(Name=alldata)
+2020-05-04 14:33:47.8349 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 14:33:47.8573 Info Found 45 configuration items
+2020-05-04 14:33:48.1154 Info AppDomain Shutting down. Logger closing...
+2020-05-04 14:33:48.1154 Info Logger has been shut down.
+2020-05-04 14:33:52.9679 Info Message Template Auto Format enabled
+2020-05-04 14:33:53.0042 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 14:33:53.1309 Info Adding target FileTarget(Name=alldata)
+2020-05-04 14:33:53.1744 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 14:33:53.2662 Info Found 45 configuration items
+2020-05-04 14:33:54.2219 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 14:33:54.2409 Info Message Template Auto Format enabled
+2020-05-04 14:33:54.2409 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 14:33:54.2582 Info Adding target FileTarget(Name=alldata)
+2020-05-04 14:33:54.2582 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 14:33:54.2730 Info Closing old configuration.
+2020-05-04 14:33:54.3160 Info Found 45 configuration items
+2020-05-04 14:36:12.4852 Info Message Template Auto Format enabled
+2020-05-04 14:36:12.4945 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 14:36:12.5515 Info Adding target FileTarget(Name=alldata)
+2020-05-04 14:36:12.5515 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 14:36:12.5729 Info Found 45 configuration items
+2020-05-04 14:36:12.8623 Info AppDomain Shutting down. Logger closing...
+2020-05-04 14:36:12.8623 Info Logger has been shut down.
+2020-05-04 14:36:17.4001 Info Message Template Auto Format enabled
+2020-05-04 14:36:17.4496 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 14:36:17.5505 Info Adding target FileTarget(Name=alldata)
+2020-05-04 14:36:17.5505 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 14:36:17.6171 Info Found 45 configuration items
+2020-05-04 14:36:18.3073 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 14:36:18.3073 Info Message Template Auto Format enabled
+2020-05-04 14:36:18.3228 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 14:36:18.3228 Info Adding target FileTarget(Name=alldata)
+2020-05-04 14:36:18.3353 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 14:36:18.3353 Info Closing old configuration.
+2020-05-04 14:36:18.3734 Info Found 45 configuration items
+2020-05-04 15:00:36.4463 Info Message Template Auto Format enabled
+2020-05-04 15:00:36.4697 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 15:00:36.6212 Info Adding target FileTarget(Name=alldata)
+2020-05-04 15:00:36.6212 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 15:00:36.6583 Info Found 45 configuration items
+2020-05-04 15:00:43.2843 Info AppDomain Shutting down. Logger closing...
+2020-05-04 15:00:43.3159 Info Logger has been shut down.
+2020-05-04 15:00:52.1691 Info Message Template Auto Format enabled
+2020-05-04 15:00:52.2507 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 15:00:52.3107 Info Adding target FileTarget(Name=alldata)
+2020-05-04 15:00:52.3278 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 15:00:52.3819 Info Found 45 configuration items
+2020-05-04 15:00:52.6403 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 15:00:52.6568 Info Message Template Auto Format enabled
+2020-05-04 15:00:52.6621 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 15:00:52.6621 Info Adding target FileTarget(Name=alldata)
+2020-05-04 15:00:52.6621 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 15:00:52.6781 Info Closing old configuration.
+2020-05-04 15:00:52.6968 Info Found 45 configuration items
+2020-05-04 15:01:56.8871 Info Shutdown() called. Logger closing...
+2020-05-04 15:01:56.9720 Info Closing old configuration.
+2020-05-04 15:01:57.0090 Info Logger has been closed down.
+2020-05-04 15:01:57.0383 Info AppDomain Shutting down. Logger closing...
+2020-05-04 15:01:57.0503 Info Logger has been shut down.
+2020-05-04 15:08:35.3054 Info Message Template Auto Format enabled
+2020-05-04 15:08:35.3358 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 15:08:35.5195 Info Adding target FileTarget(Name=alldata)
+2020-05-04 15:08:35.5347 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 15:08:35.5881 Info Found 45 configuration items
+2020-05-04 15:08:36.1188 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 15:08:36.1188 Info Message Template Auto Format enabled
+2020-05-04 15:08:36.1320 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 15:08:36.1320 Info Adding target FileTarget(Name=alldata)
+2020-05-04 15:08:36.1604 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 15:08:36.1604 Info Closing old configuration.
+2020-05-04 15:08:36.2060 Info Found 45 configuration items
+2020-05-04 15:42:02.7987 Info Message Template Auto Format enabled
+2020-05-04 15:42:02.8856 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 15:42:03.0105 Info Adding target FileTarget(Name=alldata)
+2020-05-04 15:42:03.0198 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 15:42:03.0554 Info Found 45 configuration items
+2020-05-04 15:42:03.3131 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-04 15:42:03.3214 Info Message Template Auto Format enabled
+2020-05-04 15:42:03.3214 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-04 15:42:03.3346 Info Adding target FileTarget(Name=alldata)
+2020-05-04 15:42:03.3346 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-04 15:42:03.3346 Info Closing old configuration.
+2020-05-04 15:42:03.3639 Info Found 45 configuration items
+2020-05-05 10:18:11.0013 Info Message Template Auto Format enabled
+2020-05-05 10:18:11.2536 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 10:18:11.4284 Info Adding target FileTarget(Name=alldata)
+2020-05-05 10:18:11.4402 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 10:18:11.4899 Info Found 45 configuration items
+2020-05-05 10:18:12.1077 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 10:18:12.1123 Info Message Template Auto Format enabled
+2020-05-05 10:18:12.1123 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 10:18:12.1123 Info Adding target FileTarget(Name=alldata)
+2020-05-05 10:18:12.1288 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 10:18:12.1288 Info Closing old configuration.
+2020-05-05 10:18:12.1912 Info Found 45 configuration items
+2020-05-05 10:21:59.7374 Info Message Template Auto Format enabled
+2020-05-05 10:21:59.8022 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 10:21:59.9318 Info Adding target FileTarget(Name=alldata)
+2020-05-05 10:21:59.9519 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 10:22:00.0190 Info Found 45 configuration items
+2020-05-05 10:22:00.5775 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 10:22:00.5954 Info Message Template Auto Format enabled
+2020-05-05 10:22:00.5954 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 10:22:00.5954 Info Adding target FileTarget(Name=alldata)
+2020-05-05 10:22:00.6127 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 10:22:00.6127 Info Closing old configuration.
+2020-05-05 10:22:00.6527 Info Found 45 configuration items
+2020-05-05 10:58:03.4427 Info Message Template Auto Format enabled
+2020-05-05 10:58:03.4830 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 10:58:03.7473 Info Adding target FileTarget(Name=alldata)
+2020-05-05 10:58:03.7473 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 10:58:03.8062 Info Found 45 configuration items
+2020-05-05 10:58:06.4910 Info AppDomain Shutting down. Logger closing...
+2020-05-05 10:58:06.5334 Info Logger has been shut down.
+2020-05-05 10:58:47.3165 Info Message Template Auto Format enabled
+2020-05-05 10:58:47.5224 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 10:58:47.9202 Info Adding target FileTarget(Name=alldata)
+2020-05-05 10:58:48.0229 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 10:58:48.3280 Info Found 45 configuration items
+2020-05-05 10:58:50.9305 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 10:58:50.9547 Info Message Template Auto Format enabled
+2020-05-05 10:58:50.9547 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 10:58:50.9706 Info Adding target FileTarget(Name=alldata)
+2020-05-05 10:58:50.9845 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 10:58:50.9845 Info Closing old configuration.
+2020-05-05 10:58:51.0525 Info Found 45 configuration items
+2020-05-05 11:00:32.9292 Info Message Template Auto Format enabled
+2020-05-05 11:00:32.9367 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:00:32.9783 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:00:32.9783 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:00:33.0040 Info Found 45 configuration items
+2020-05-05 11:00:33.5014 Info AppDomain Shutting down. Logger closing...
+2020-05-05 11:00:33.5014 Info Logger has been shut down.
+2020-05-05 11:00:49.1693 Info Message Template Auto Format enabled
+2020-05-05 11:00:49.2905 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:00:49.4293 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:00:49.4667 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:00:49.5585 Info Found 45 configuration items
+2020-05-05 11:00:51.1294 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 11:00:51.1482 Info Message Template Auto Format enabled
+2020-05-05 11:00:51.1482 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:00:51.1602 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:00:51.1602 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:00:51.1738 Info Closing old configuration.
+2020-05-05 11:00:51.2087 Info Found 45 configuration items
+2020-05-05 11:02:49.0929 Info Message Template Auto Format enabled
+2020-05-05 11:02:49.0984 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:02:49.1386 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:02:49.1401 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:02:49.1638 Info Found 45 configuration items
+2020-05-05 11:02:49.7799 Info AppDomain Shutting down. Logger closing...
+2020-05-05 11:02:49.7905 Info Logger has been shut down.
+2020-05-05 11:02:56.9972 Info Message Template Auto Format enabled
+2020-05-05 11:02:57.0415 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:02:57.1375 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:02:57.1495 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:02:57.1969 Info Found 45 configuration items
+2020-05-05 11:02:57.7971 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 11:02:57.7971 Info Message Template Auto Format enabled
+2020-05-05 11:02:57.7971 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:02:57.8140 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:02:57.8140 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:02:57.8140 Info Closing old configuration.
+2020-05-05 11:02:57.8617 Info Found 45 configuration items
+2020-05-05 11:04:05.5401 Info Message Template Auto Format enabled
+2020-05-05 11:04:05.5473 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:04:05.6017 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:04:05.6017 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:04:05.6251 Info Found 45 configuration items
+2020-05-05 11:04:05.9635 Info AppDomain Shutting down. Logger closing...
+2020-05-05 11:04:05.9737 Info Logger has been shut down.
+2020-05-05 11:04:09.9936 Info Message Template Auto Format enabled
+2020-05-05 11:04:10.1477 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:04:10.2667 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:04:10.4245 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:04:10.4800 Info Found 45 configuration items
+2020-05-05 11:04:11.2172 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 11:04:11.2257 Info Message Template Auto Format enabled
+2020-05-05 11:04:11.2257 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:04:11.2384 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:04:11.3015 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:04:11.3015 Info Closing old configuration.
+2020-05-05 11:04:11.4758 Info Found 45 configuration items
+2020-05-05 11:07:46.9418 Info Message Template Auto Format enabled
+2020-05-05 11:07:46.9418 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:07:47.0015 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:07:47.0015 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:07:47.0449 Info Found 45 configuration items
+2020-05-05 11:07:47.4311 Info AppDomain Shutting down. Logger closing...
+2020-05-05 11:07:47.4416 Info Logger has been shut down.
+2020-05-05 11:07:51.9108 Info Message Template Auto Format enabled
+2020-05-05 11:07:51.9460 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:07:52.0325 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:07:52.0325 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:07:52.0923 Info Found 45 configuration items
+2020-05-05 11:07:52.6109 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 11:07:52.6109 Info Message Template Auto Format enabled
+2020-05-05 11:07:52.6109 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:07:52.6296 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:07:52.6296 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:07:52.6296 Info Closing old configuration.
+2020-05-05 11:07:52.6755 Info Found 45 configuration items
+2020-05-05 11:10:36.5362 Info Message Template Auto Format enabled
+2020-05-05 11:10:36.6392 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:10:36.7134 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:10:36.7218 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:10:36.7694 Info Found 45 configuration items
+2020-05-05 11:10:36.9703 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 11:10:36.9703 Info Message Template Auto Format enabled
+2020-05-05 11:10:36.9703 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:10:36.9875 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:10:36.9875 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:10:37.0023 Info Closing old configuration.
+2020-05-05 11:10:37.0274 Info Found 45 configuration items
+2020-05-05 11:40:23.3349 Info Message Template Auto Format enabled
+2020-05-05 11:40:23.3629 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:40:23.5326 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:40:23.5326 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:40:23.5577 Info Found 45 configuration items
+2020-05-05 11:40:24.8484 Info AppDomain Shutting down. Logger closing...
+2020-05-05 11:40:24.8595 Info Logger has been shut down.
+2020-05-05 11:48:07.3258 Info Message Template Auto Format enabled
+2020-05-05 11:48:07.5150 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:48:07.7909 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:48:07.8322 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:48:07.9121 Info Found 45 configuration items
+2020-05-05 11:48:09.6433 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 11:48:09.7141 Info Message Template Auto Format enabled
+2020-05-05 11:48:09.7306 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:48:09.7370 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:48:09.7370 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:48:09.7519 Info Closing old configuration.
+2020-05-05 11:48:09.8039 Info Found 45 configuration items
+2020-05-05 11:53:28.6283 Info Message Template Auto Format enabled
+2020-05-05 11:53:28.6283 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:53:28.6734 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:53:28.6734 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:53:28.6963 Info Found 45 configuration items
+2020-05-05 11:53:29.3329 Info AppDomain Shutting down. Logger closing...
+2020-05-05 11:53:29.3433 Info Logger has been shut down.
+2020-05-05 11:53:34.9590 Info Message Template Auto Format enabled
+2020-05-05 11:53:35.0283 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:53:35.1264 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:53:35.1264 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:53:35.1909 Info Found 45 configuration items
+2020-05-05 11:53:35.9599 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 11:53:35.9599 Info Message Template Auto Format enabled
+2020-05-05 11:53:35.9762 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:53:35.9762 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:53:35.9882 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:53:35.9882 Info Closing old configuration.
+2020-05-05 11:53:36.0743 Info Found 45 configuration items
+2020-05-05 11:58:00.5765 Info Message Template Auto Format enabled
+2020-05-05 11:58:00.5835 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:58:00.6390 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:58:00.6409 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:58:00.6687 Info Found 45 configuration items
+2020-05-05 11:58:01.0227 Info AppDomain Shutting down. Logger closing...
+2020-05-05 11:58:01.0341 Info Logger has been shut down.
+2020-05-05 11:58:05.8186 Info Message Template Auto Format enabled
+2020-05-05 11:58:05.9025 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:58:06.0905 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:58:06.1056 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:58:06.1478 Info Found 45 configuration items
+2020-05-05 11:58:06.8317 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 11:58:06.8317 Info Message Template Auto Format enabled
+2020-05-05 11:58:06.8465 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 11:58:06.8465 Info Adding target FileTarget(Name=alldata)
+2020-05-05 11:58:06.8618 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 11:58:06.8618 Info Closing old configuration.
+2020-05-05 11:58:06.9122 Info Found 45 configuration items
+2020-05-05 12:01:01.7521 Info Message Template Auto Format enabled
+2020-05-05 12:01:01.7521 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:01:01.7966 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:01:01.7966 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:01:01.8192 Info Found 45 configuration items
+2020-05-05 12:01:02.1716 Info AppDomain Shutting down. Logger closing...
+2020-05-05 12:01:02.1716 Info Logger has been shut down.
+2020-05-05 12:01:06.3614 Info Message Template Auto Format enabled
+2020-05-05 12:01:06.4274 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:01:06.6454 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:01:06.6897 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:01:06.8297 Info Found 45 configuration items
+2020-05-05 12:01:07.5448 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 12:01:07.5540 Info Message Template Auto Format enabled
+2020-05-05 12:01:07.5673 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:01:07.5880 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:01:07.6161 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:01:07.6304 Info Closing old configuration.
+2020-05-05 12:01:07.7338 Info Found 45 configuration items
+2020-05-05 12:04:22.0842 Info Message Template Auto Format enabled
+2020-05-05 12:04:22.0842 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:04:22.1322 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:04:22.1322 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:04:22.1574 Info Found 45 configuration items
+2020-05-05 12:04:22.4828 Info AppDomain Shutting down. Logger closing...
+2020-05-05 12:04:22.4943 Info Logger has been shut down.
+2020-05-05 12:04:26.3758 Info Message Template Auto Format enabled
+2020-05-05 12:04:26.5242 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:04:26.7261 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:04:26.7435 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:04:26.8114 Info Found 45 configuration items
+2020-05-05 12:04:27.3226 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 12:04:27.3276 Info Message Template Auto Format enabled
+2020-05-05 12:04:27.3276 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:04:27.3276 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:04:27.3466 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:04:27.3466 Info Closing old configuration.
+2020-05-05 12:04:27.3866 Info Found 45 configuration items
+2020-05-05 12:24:18.3737 Info Message Template Auto Format enabled
+2020-05-05 12:24:18.4078 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:24:18.4747 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:24:18.4747 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:24:18.5080 Info Found 45 configuration items
+2020-05-05 12:24:20.4327 Info AppDomain Shutting down. Logger closing...
+2020-05-05 12:24:20.4448 Info Logger has been shut down.
+2020-05-05 12:24:36.6393 Info Message Template Auto Format enabled
+2020-05-05 12:24:36.7953 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:24:36.9733 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:24:37.0328 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:24:37.1018 Info Found 45 configuration items
+2020-05-05 12:24:38.6632 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 12:24:38.7058 Info Message Template Auto Format enabled
+2020-05-05 12:24:38.7058 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:24:38.7235 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:24:38.7235 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:24:38.7391 Info Closing old configuration.
+2020-05-05 12:24:38.7852 Info Found 45 configuration items
+2020-05-05 12:27:54.7950 Info Message Template Auto Format enabled
+2020-05-05 12:27:54.8618 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:27:54.9519 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:27:54.9652 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:27:55.0126 Info Found 45 configuration items
+2020-05-05 12:27:55.6171 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 12:27:55.6171 Info Message Template Auto Format enabled
+2020-05-05 12:27:55.6282 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:27:55.6282 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:27:55.6282 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:27:55.6446 Info Closing old configuration.
+2020-05-05 12:27:55.6742 Info Found 45 configuration items
+2020-05-05 12:49:15.0426 Info Message Template Auto Format enabled
+2020-05-05 12:49:15.0487 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:49:15.0873 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:49:15.0873 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:49:15.1096 Info Found 45 configuration items
+2020-05-05 12:49:15.4010 Info AppDomain Shutting down. Logger closing...
+2020-05-05 12:49:15.4114 Info Logger has been shut down.
+2020-05-05 12:49:21.7106 Info Message Template Auto Format enabled
+2020-05-05 12:49:21.8460 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:49:21.9256 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:49:21.9382 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:49:21.9825 Info Found 45 configuration items
+2020-05-05 12:49:22.4890 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 12:49:22.4890 Info Message Template Auto Format enabled
+2020-05-05 12:49:22.5009 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:49:22.5009 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:49:22.5009 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:49:22.5177 Info Closing old configuration.
+2020-05-05 12:49:22.5574 Info Found 45 configuration items
+2020-05-05 12:50:52.6556 Info Message Template Auto Format enabled
+2020-05-05 12:50:52.7528 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:50:52.8981 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:50:52.9124 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:50:53.0599 Info Found 45 configuration items
+2020-05-05 12:50:53.5407 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 12:50:53.5466 Info Message Template Auto Format enabled
+2020-05-05 12:50:53.5466 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:50:53.5466 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:50:53.5641 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:50:53.5641 Info Closing old configuration.
+2020-05-05 12:50:53.6097 Info Found 45 configuration items
+2020-05-05 12:58:36.6042 Info Message Template Auto Format enabled
+2020-05-05 12:58:36.6140 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:58:36.6722 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:58:36.6722 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:58:36.7040 Info Found 45 configuration items
+2020-05-05 12:58:37.0334 Info AppDomain Shutting down. Logger closing...
+2020-05-05 12:58:37.0334 Info Logger has been shut down.
+2020-05-05 12:58:40.6800 Info Message Template Auto Format enabled
+2020-05-05 12:58:40.7784 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:58:40.8716 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:58:40.8835 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:58:40.9310 Info Found 45 configuration items
+2020-05-05 12:58:41.4480 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 12:58:41.4617 Info Message Template Auto Format enabled
+2020-05-05 12:58:41.4749 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:58:41.4749 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:58:41.4910 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:58:41.5006 Info Closing old configuration.
+2020-05-05 12:58:41.5787 Info Found 45 configuration items
+2020-05-05 12:59:27.5434 Info Message Template Auto Format enabled
+2020-05-05 12:59:27.5951 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:59:27.7080 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:59:27.7572 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:59:27.8527 Info Found 45 configuration items
+2020-05-05 12:59:28.4240 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 12:59:28.4240 Info Message Template Auto Format enabled
+2020-05-05 12:59:28.4384 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 12:59:28.4384 Info Adding target FileTarget(Name=alldata)
+2020-05-05 12:59:28.4556 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 12:59:28.4556 Info Closing old configuration.
+2020-05-05 12:59:28.4976 Info Found 45 configuration items
+2020-05-05 13:00:22.8706 Info Message Template Auto Format enabled
+2020-05-05 13:00:22.8789 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 13:00:22.9293 Info Adding target FileTarget(Name=alldata)
+2020-05-05 13:00:22.9293 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 13:00:22.9577 Info Found 45 configuration items
+2020-05-05 13:00:23.3017 Info AppDomain Shutting down. Logger closing...
+2020-05-05 13:00:23.3150 Info Logger has been shut down.
+2020-05-05 13:00:26.3628 Info Message Template Auto Format enabled
+2020-05-05 13:00:26.4009 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 13:00:26.4718 Info Adding target FileTarget(Name=alldata)
+2020-05-05 13:00:26.4845 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 13:00:26.5270 Info Found 45 configuration items
+2020-05-05 13:00:27.0636 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 13:00:27.0636 Info Message Template Auto Format enabled
+2020-05-05 13:00:27.0939 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 13:00:27.0939 Info Adding target FileTarget(Name=alldata)
+2020-05-05 13:00:27.1116 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 13:00:27.1116 Info Closing old configuration.
+2020-05-05 13:00:27.1555 Info Found 45 configuration items
+2020-05-05 13:04:06.5074 Info Message Template Auto Format enabled
+2020-05-05 13:04:06.5889 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 13:04:06.7208 Info Adding target FileTarget(Name=alldata)
+2020-05-05 13:04:06.7347 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 13:04:06.7900 Info Found 45 configuration items
+2020-05-05 13:04:07.3287 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 13:04:07.3587 Info Message Template Auto Format enabled
+2020-05-05 13:04:07.3769 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 13:04:07.3900 Info Adding target FileTarget(Name=alldata)
+2020-05-05 13:04:07.3900 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 13:04:07.4142 Info Closing old configuration.
+2020-05-05 13:04:07.4577 Info Found 45 configuration items
+2020-05-05 13:09:03.2086 Info Message Template Auto Format enabled
+2020-05-05 13:09:03.2086 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 13:09:03.2536 Info Adding target FileTarget(Name=alldata)
+2020-05-05 13:09:03.2536 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 13:09:03.2775 Info Found 45 configuration items
+2020-05-05 13:09:03.9378 Info AppDomain Shutting down. Logger closing...
+2020-05-05 13:09:03.9378 Info Logger has been shut down.
+2020-05-05 14:28:37.6192 Info Message Template Auto Format enabled
+2020-05-05 14:28:37.6631 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 14:28:37.7537 Info Adding target FileTarget(Name=alldata)
+2020-05-05 14:28:37.7537 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 14:28:37.8109 Info Found 45 configuration items
+2020-05-05 14:28:39.0304 Info AppDomain Shutting down. Logger closing...
+2020-05-05 14:28:39.0304 Info Logger has been shut down.
+2020-05-05 14:28:44.1001 Info Message Template Auto Format enabled
+2020-05-05 14:28:44.4087 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 14:28:44.6813 Info Adding target FileTarget(Name=alldata)
+2020-05-05 14:28:44.7023 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 14:28:44.7656 Info Found 45 configuration items
+2020-05-05 14:28:46.3255 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 14:28:46.3871 Info Message Template Auto Format enabled
+2020-05-05 14:28:46.3960 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 14:28:46.3960 Info Adding target FileTarget(Name=alldata)
+2020-05-05 14:28:46.4115 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 14:28:46.4115 Info Closing old configuration.
+2020-05-05 14:28:46.4597 Info Found 45 configuration items
+2020-05-05 14:29:27.6193 Info Message Template Auto Format enabled
+2020-05-05 14:29:27.7158 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 14:29:27.7931 Info Adding target FileTarget(Name=alldata)
+2020-05-05 14:29:27.8073 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 14:29:27.8490 Info Found 45 configuration items
+2020-05-05 14:29:28.2750 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 14:29:28.2750 Info Message Template Auto Format enabled
+2020-05-05 14:29:28.2874 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 14:29:28.2874 Info Adding target FileTarget(Name=alldata)
+2020-05-05 14:29:28.2978 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 14:29:28.2978 Info Closing old configuration.
+2020-05-05 14:29:28.3314 Info Found 45 configuration items
+2020-05-05 14:32:36.9717 Info Message Template Auto Format enabled
+2020-05-05 14:32:36.9717 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 14:32:37.0118 Info Adding target FileTarget(Name=alldata)
+2020-05-05 14:32:37.0118 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 14:32:37.0317 Info Found 45 configuration items
+2020-05-05 14:32:37.2998 Info AppDomain Shutting down. Logger closing...
+2020-05-05 14:32:37.2998 Info Logger has been shut down.
+2020-05-05 14:32:42.6739 Info Message Template Auto Format enabled
+2020-05-05 14:32:42.7639 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 14:32:42.9448 Info Adding target FileTarget(Name=alldata)
+2020-05-05 14:32:42.9627 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 14:32:43.0257 Info Found 45 configuration items
+2020-05-05 14:32:43.6364 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-05 14:32:43.6445 Info Message Template Auto Format enabled
+2020-05-05 14:32:43.6445 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-05 14:32:43.6651 Info Adding target FileTarget(Name=alldata)
+2020-05-05 14:32:43.6731 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-05 14:32:43.6731 Info Closing old configuration.
+2020-05-05 14:32:43.7385 Info Found 45 configuration items
+2020-05-06 09:54:52.9578 Info Message Template Auto Format enabled
+2020-05-06 09:54:53.3574 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 09:54:54.1693 Info Adding target FileTarget(Name=alldata)
+2020-05-06 09:54:54.1755 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 09:54:54.3001 Info Found 45 configuration items
+2020-05-06 09:54:57.8245 Info AppDomain Shutting down. Logger closing...
+2020-05-06 09:54:57.8743 Info Logger has been shut down.
+2020-05-06 09:57:13.0201 Info Message Template Auto Format enabled
+2020-05-06 09:57:13.1340 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 09:57:13.3931 Info Adding target FileTarget(Name=alldata)
+2020-05-06 09:57:13.5216 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 09:57:13.6611 Info Found 45 configuration items
+2020-05-06 09:57:16.7537 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 09:57:16.8064 Info Message Template Auto Format enabled
+2020-05-06 09:57:16.8064 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 09:57:16.8213 Info Adding target FileTarget(Name=alldata)
+2020-05-06 09:57:16.8213 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 09:57:16.8347 Info Closing old configuration.
+2020-05-06 09:57:16.8725 Info Found 45 configuration items
+2020-05-06 10:03:50.0758 Info Message Template Auto Format enabled
+2020-05-06 10:03:50.0825 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:03:50.1214 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:03:50.1214 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:03:50.1476 Info Found 45 configuration items
+2020-05-06 10:03:50.6536 Info AppDomain Shutting down. Logger closing...
+2020-05-06 10:03:50.6757 Info Logger has been shut down.
+2020-05-06 10:05:03.1250 Info Message Template Auto Format enabled
+2020-05-06 10:05:03.1250 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:05:03.1691 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:05:03.1691 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:05:03.1932 Info Found 45 configuration items
+2020-05-06 10:05:03.2990 Info AppDomain Shutting down. Logger closing...
+2020-05-06 10:05:03.2990 Info Logger has been shut down.
+2020-05-06 10:09:08.9672 Info Message Template Auto Format enabled
+2020-05-06 10:09:08.9728 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:09:09.0114 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:09:09.0114 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:09:09.0336 Info Found 45 configuration items
+2020-05-06 10:09:09.7776 Info AppDomain Shutting down. Logger closing...
+2020-05-06 10:09:09.7877 Info Logger has been shut down.
+2020-05-06 10:09:14.7764 Info Message Template Auto Format enabled
+2020-05-06 10:09:14.9837 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:09:15.1066 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:09:15.1457 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:09:15.2102 Info Found 45 configuration items
+2020-05-06 10:09:16.0021 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 10:09:16.0021 Info Message Template Auto Format enabled
+2020-05-06 10:09:16.0021 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:09:16.0202 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:09:16.0202 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:09:16.0305 Info Closing old configuration.
+2020-05-06 10:09:16.0623 Info Found 45 configuration items
+2020-05-06 10:28:30.4300 Info Message Template Auto Format enabled
+2020-05-06 10:28:30.4528 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:28:30.6032 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:28:30.6032 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:28:30.6427 Info Found 45 configuration items
+2020-05-06 10:28:33.1217 Info AppDomain Shutting down. Logger closing...
+2020-05-06 10:28:33.1544 Info Logger has been shut down.
+2020-05-06 10:29:00.9491 Info Message Template Auto Format enabled
+2020-05-06 10:29:01.2985 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:29:01.6224 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:29:01.6656 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:29:01.7345 Info Found 45 configuration items
+2020-05-06 10:29:04.2433 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 10:29:04.2926 Info Message Template Auto Format enabled
+2020-05-06 10:29:04.2996 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:29:04.2996 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:29:04.3172 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:29:04.3172 Info Closing old configuration.
+2020-05-06 10:29:04.4696 Info Found 45 configuration items
+2020-05-06 10:40:46.6020 Info Message Template Auto Format enabled
+2020-05-06 10:40:46.6020 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:40:46.6468 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:40:46.6468 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:40:46.6692 Info Found 45 configuration items
+2020-05-06 10:40:46.9779 Info AppDomain Shutting down. Logger closing...
+2020-05-06 10:40:46.9912 Info Logger has been shut down.
+2020-05-06 10:40:51.2605 Info Message Template Auto Format enabled
+2020-05-06 10:40:51.3807 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:40:51.4609 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:40:51.5354 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:40:51.5937 Info Found 45 configuration items
+2020-05-06 10:40:52.1235 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 10:40:52.1301 Info Message Template Auto Format enabled
+2020-05-06 10:40:52.1301 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 10:40:52.1425 Info Adding target FileTarget(Name=alldata)
+2020-05-06 10:40:52.1425 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 10:40:52.1425 Info Closing old configuration.
+2020-05-06 10:40:52.1892 Info Found 45 configuration items
+2020-05-06 11:01:59.7970 Info Message Template Auto Format enabled
+2020-05-06 11:01:59.8257 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 11:02:00.0599 Info Adding target FileTarget(Name=alldata)
+2020-05-06 11:02:00.0619 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 11:02:00.1005 Info Found 45 configuration items
+2020-05-06 11:02:04.4738 Info AppDomain Shutting down. Logger closing...
+2020-05-06 11:02:04.5907 Info Logger has been shut down.
+2020-05-06 11:02:19.9528 Info Message Template Auto Format enabled
+2020-05-06 11:02:20.0847 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 11:02:20.2452 Info Adding target FileTarget(Name=alldata)
+2020-05-06 11:02:20.2744 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 11:02:20.3388 Info Found 45 configuration items
+2020-05-06 11:02:21.9952 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 11:02:22.0289 Info Message Template Auto Format enabled
+2020-05-06 11:02:22.0352 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 11:02:22.0352 Info Adding target FileTarget(Name=alldata)
+2020-05-06 11:02:22.0463 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 11:02:22.0463 Info Closing old configuration.
+2020-05-06 11:02:22.1001 Info Found 45 configuration items
+2020-05-06 11:08:39.7122 Info Message Template Auto Format enabled
+2020-05-06 11:08:39.7122 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 11:08:39.7566 Info Adding target FileTarget(Name=alldata)
+2020-05-06 11:08:39.7566 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 11:08:39.7787 Info Found 45 configuration items
+2020-05-06 11:08:40.2326 Info AppDomain Shutting down. Logger closing...
+2020-05-06 11:08:40.2427 Info Logger has been shut down.
+2020-05-06 11:08:48.7156 Info Message Template Auto Format enabled
+2020-05-06 11:08:48.8572 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 11:08:48.9486 Info Adding target FileTarget(Name=alldata)
+2020-05-06 11:08:48.9625 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 11:08:49.0109 Info Found 45 configuration items
+2020-05-06 11:08:49.4761 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 11:08:49.4761 Info Message Template Auto Format enabled
+2020-05-06 11:08:49.4885 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 11:08:49.4885 Info Adding target FileTarget(Name=alldata)
+2020-05-06 11:08:49.5009 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 11:08:49.5009 Info Closing old configuration.
+2020-05-06 11:08:49.5536 Info Found 45 configuration items
+2020-05-06 13:31:26.8544 Info Message Template Auto Format enabled
+2020-05-06 13:31:26.9262 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 13:31:27.0863 Info Adding target FileTarget(Name=alldata)
+2020-05-06 13:31:27.0863 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 13:31:27.1213 Info Found 45 configuration items
+2020-05-06 13:31:29.4198 Info AppDomain Shutting down. Logger closing...
+2020-05-06 13:31:29.4315 Info Logger has been shut down.
+2020-05-06 13:32:05.6734 Info Message Template Auto Format enabled
+2020-05-06 13:32:05.8308 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 13:32:06.0336 Info Adding target FileTarget(Name=alldata)
+2020-05-06 13:32:06.0577 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 13:32:06.1264 Info Found 45 configuration items
+2020-05-06 13:32:07.8381 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 13:32:07.8714 Info Message Template Auto Format enabled
+2020-05-06 13:32:07.8780 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 13:32:07.8780 Info Adding target FileTarget(Name=alldata)
+2020-05-06 13:32:07.8898 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 13:32:07.8898 Info Closing old configuration.
+2020-05-06 13:32:07.9283 Info Found 45 configuration items
+2020-05-06 13:42:14.6758 Info Message Template Auto Format enabled
+2020-05-06 13:42:14.6978 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 13:42:14.7366 Info Adding target FileTarget(Name=alldata)
+2020-05-06 13:42:14.7366 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 13:42:14.7588 Info Found 45 configuration items
+2020-05-06 13:42:15.0642 Info AppDomain Shutting down. Logger closing...
+2020-05-06 13:42:15.0642 Info Logger has been shut down.
+2020-05-06 13:42:20.1140 Info Message Template Auto Format enabled
+2020-05-06 13:42:20.3631 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 13:42:20.5115 Info Adding target FileTarget(Name=alldata)
+2020-05-06 13:42:20.5323 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 13:42:20.6034 Info Found 45 configuration items
+2020-05-06 13:42:21.2443 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 13:42:21.2551 Info Message Template Auto Format enabled
+2020-05-06 13:42:21.2551 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 13:42:21.2707 Info Adding target FileTarget(Name=alldata)
+2020-05-06 13:42:21.2707 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 13:42:21.2867 Info Closing old configuration.
+2020-05-06 13:42:21.3269 Info Found 45 configuration items
+2020-05-06 14:50:31.7758 Info Message Template Auto Format enabled
+2020-05-06 14:50:31.9970 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 14:50:32.2258 Info Adding target FileTarget(Name=alldata)
+2020-05-06 14:50:32.2706 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 14:50:32.3960 Info Found 45 configuration items
+2020-05-06 14:50:34.2766 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 14:50:34.3402 Info Message Template Auto Format enabled
+2020-05-06 14:50:34.3649 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 14:50:34.3792 Info Adding target FileTarget(Name=alldata)
+2020-05-06 14:50:34.3792 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 14:50:34.3999 Info Closing old configuration.
+2020-05-06 14:50:34.4769 Info Found 45 configuration items
+2020-05-06 15:31:14.8002 Info Message Template Auto Format enabled
+2020-05-06 15:31:14.9404 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 15:31:15.4175 Info Adding target FileTarget(Name=alldata)
+2020-05-06 15:31:15.5152 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 15:31:15.6919 Info Found 45 configuration items
+2020-05-06 15:31:18.0824 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-06 15:31:18.1281 Info Message Template Auto Format enabled
+2020-05-06 15:31:18.1281 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 15:31:18.1429 Info Adding target FileTarget(Name=alldata)
+2020-05-06 15:31:18.1429 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-06 15:31:18.1577 Info Closing old configuration.
+2020-05-06 15:31:18.1931 Info Found 45 configuration items
+2020-05-07 10:37:45.9768 Info Message Template Auto Format enabled
+2020-05-07 10:37:46.0237 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 10:37:46.2061 Info Adding target FileTarget(Name=alldata)
+2020-05-07 10:37:46.2061 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 10:37:46.2524 Info Found 45 configuration items
+2020-05-07 10:37:49.4662 Info AppDomain Shutting down. Logger closing...
+2020-05-07 10:37:49.4802 Info Logger has been shut down.
+2020-05-07 11:10:03.2972 Info Message Template Auto Format enabled
+2020-05-07 11:10:03.4753 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 11:10:03.7113 Info Adding target FileTarget(Name=alldata)
+2020-05-07 11:10:03.7665 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 11:10:03.9621 Info Found 45 configuration items
+2020-05-07 11:10:06.2200 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 11:10:06.2628 Info Message Template Auto Format enabled
+2020-05-07 11:10:06.2762 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 11:10:06.2936 Info Adding target FileTarget(Name=alldata)
+2020-05-07 11:10:06.3000 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 11:10:06.3000 Info Closing old configuration.
+2020-05-07 11:10:06.3578 Info Found 45 configuration items
+2020-05-07 12:14:35.6622 Info Message Template Auto Format enabled
+2020-05-07 12:14:35.7767 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:14:35.9093 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:14:35.9391 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:14:36.0680 Info Found 45 configuration items
+2020-05-07 12:14:37.4825 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 12:14:37.5803 Info Message Template Auto Format enabled
+2020-05-07 12:14:37.5926 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:14:37.5926 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:14:37.6149 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:14:37.6149 Info Closing old configuration.
+2020-05-07 12:14:37.6707 Info Found 45 configuration items
+2020-05-07 12:22:21.6277 Info Message Template Auto Format enabled
+2020-05-07 12:22:21.6697 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:22:21.7416 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:22:21.7416 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:22:21.7650 Info Found 45 configuration items
+2020-05-07 12:22:23.4932 Info AppDomain Shutting down. Logger closing...
+2020-05-07 12:22:23.5169 Info Logger has been shut down.
+2020-05-07 12:22:48.5580 Info Message Template Auto Format enabled
+2020-05-07 12:22:48.6917 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:22:48.8736 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:22:48.9060 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:22:48.9657 Info Found 45 configuration items
+2020-05-07 12:22:50.6929 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 12:22:50.7154 Info Message Template Auto Format enabled
+2020-05-07 12:22:50.7296 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:22:50.7411 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:22:50.7522 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:22:50.7522 Info Closing old configuration.
+2020-05-07 12:22:50.8485 Info Found 45 configuration items
+2020-05-07 12:31:18.1215 Info Message Template Auto Format enabled
+2020-05-07 12:31:18.1392 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:31:18.1884 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:31:18.1884 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:31:18.2106 Info Found 45 configuration items
+2020-05-07 12:31:19.2906 Info AppDomain Shutting down. Logger closing...
+2020-05-07 12:31:19.3019 Info Logger has been shut down.
+2020-05-07 12:31:33.6134 Info Message Template Auto Format enabled
+2020-05-07 12:31:33.7036 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:31:33.8906 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:31:33.9391 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:31:34.0341 Info Found 45 configuration items
+2020-05-07 12:31:35.2701 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 12:31:35.3530 Info Message Template Auto Format enabled
+2020-05-07 12:31:35.3606 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:31:35.3838 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:31:35.3921 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:31:35.3921 Info Closing old configuration.
+2020-05-07 12:31:35.4344 Info Found 45 configuration items
+2020-05-07 12:39:08.4711 Info Message Template Auto Format enabled
+2020-05-07 12:39:08.4711 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:39:08.5157 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:39:08.5157 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:39:08.5379 Info Found 45 configuration items
+2020-05-07 12:39:08.8428 Info AppDomain Shutting down. Logger closing...
+2020-05-07 12:39:08.8563 Info Logger has been shut down.
+2020-05-07 12:39:14.8304 Info Message Template Auto Format enabled
+2020-05-07 12:39:14.9323 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:39:15.0990 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:39:15.1206 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:39:15.1720 Info Found 45 configuration items
+2020-05-07 12:39:16.0151 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 12:39:16.0151 Info Message Template Auto Format enabled
+2020-05-07 12:39:16.0352 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 12:39:16.0656 Info Adding target FileTarget(Name=alldata)
+2020-05-07 12:39:16.0656 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 12:39:16.0870 Info Closing old configuration.
+2020-05-07 12:39:16.1352 Info Found 45 configuration items
+2020-05-07 13:02:03.7517 Info Message Template Auto Format enabled
+2020-05-07 13:02:03.7852 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:02:03.8512 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:02:03.8512 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:02:03.8740 Info Found 45 configuration items
+2020-05-07 13:02:05.2523 Info AppDomain Shutting down. Logger closing...
+2020-05-07 13:02:05.2717 Info Logger has been shut down.
+2020-05-07 13:02:13.7080 Info Message Template Auto Format enabled
+2020-05-07 13:02:13.8159 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:02:14.0102 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:02:14.0578 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:02:14.1279 Info Found 45 configuration items
+2020-05-07 13:02:15.5218 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 13:02:15.5218 Info Message Template Auto Format enabled
+2020-05-07 13:02:15.5354 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:02:15.5354 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:02:15.5470 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:02:15.5470 Info Closing old configuration.
+2020-05-07 13:02:15.5850 Info Found 45 configuration items
+2020-05-07 13:07:52.8228 Info Message Template Auto Format enabled
+2020-05-07 13:07:52.9118 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:07:53.0328 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:07:53.0857 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:07:53.1548 Info Found 45 configuration items
+2020-05-07 13:07:53.9442 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 13:07:53.9442 Info Message Template Auto Format enabled
+2020-05-07 13:07:53.9571 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:07:53.9571 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:07:53.9712 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:07:53.9712 Info Closing old configuration.
+2020-05-07 13:07:54.0671 Info Found 45 configuration items
+2020-05-07 13:12:23.2168 Info Message Template Auto Format enabled
+2020-05-07 13:12:23.2229 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:12:23.2625 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:12:23.2625 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:12:23.2863 Info Found 45 configuration items
+2020-05-07 13:12:23.7882 Info AppDomain Shutting down. Logger closing...
+2020-05-07 13:12:23.7984 Info Logger has been shut down.
+2020-05-07 13:12:31.0693 Info Message Template Auto Format enabled
+2020-05-07 13:12:31.2763 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:12:31.5100 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:12:31.5253 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:12:31.5700 Info Found 45 configuration items
+2020-05-07 13:12:32.2190 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 13:12:32.3603 Info Message Template Auto Format enabled
+2020-05-07 13:12:32.4531 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:12:32.4731 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:12:32.4875 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:12:32.4875 Info Closing old configuration.
+2020-05-07 13:12:32.5694 Info Found 45 configuration items
+2020-05-07 13:15:30.5521 Info Message Template Auto Format enabled
+2020-05-07 13:15:30.6489 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:15:30.9431 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:15:30.9644 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:15:31.1628 Info Found 45 configuration items
+2020-05-07 13:15:31.7176 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 13:15:31.7345 Info Message Template Auto Format enabled
+2020-05-07 13:15:31.7345 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:15:31.7587 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:15:31.7685 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:15:31.7685 Info Closing old configuration.
+2020-05-07 13:15:31.8254 Info Found 45 configuration items
+2020-05-07 13:23:11.3036 Info Message Template Auto Format enabled
+2020-05-07 13:23:11.3873 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:23:11.6253 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:23:11.6513 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:23:11.6995 Info Found 45 configuration items
+2020-05-07 13:23:12.2275 Info Configuring from an XML element in C:\Suma Cts\AccountService/nlog.config...
+2020-05-07 13:23:12.2349 Info Message Template Auto Format enabled
+2020-05-07 13:23:12.2349 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 13:23:12.2349 Info Adding target FileTarget(Name=alldata)
+2020-05-07 13:23:12.2532 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 13:23:12.2532 Info Closing old configuration.
+2020-05-07 13:23:12.2903 Info Found 45 configuration items
+2020-05-07 15:34:13.5507 Info Message Template Auto Format enabled
+2020-05-07 15:34:13.5777 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 15:34:13.6587 Info Adding target FileTarget(Name=alldata)
+2020-05-07 15:34:13.6587 Info Adding target FileTarget(Name=otherFile-web)
+2020-05-07 15:34:13.7027 Info Found 45 configuration items
+2020-05-07 15:34:15.4792 Info AppDomain Shutting down. Logger closing...
+2020-05-07 15:34:15.5093 Info Logger has been shut down.

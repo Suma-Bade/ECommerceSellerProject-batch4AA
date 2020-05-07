@@ -1,0 +1,44 @@
+2020-05-06 09:57:13.8537||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 10:09:15.2736||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 10:09:24.5388||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 10:09:29.3394||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 10:29:01.8827||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 10:29:17.5088||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 10:29:42.5195||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade1|action: SellerLogin
+2020-05-06 10:29:44.4431|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AccountService.Manager.AccountManager.ValidateSeller(String uname, String pwd) in C:\Suma Cts\AccountService\Manager\AccountManager.cs:line 39
+   at AccountService.Controllers.AccountController.SellerLogin(String uname, String pwd) in C:\Suma Cts\AccountService\Controllers\AccountController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/api/Account/SellerLogin/suma/bade1|action: SellerLogin
+2020-05-06 10:30:41.3951||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 10:31:08.4251||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/manasa/manasa@|action: SellerLogin
+2020-05-06 10:40:51.6518||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 10:42:50.2315||INFO|AccountService.Controllers.AccountController|Register |url: http://localhost/api/Account/REGISTER-SELLER|action: SellerRegister
+2020-05-06 11:02:20.5940||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 11:02:40.1093||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 11:02:42.4436||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 11:04:23.4160||INFO|AccountService.Controllers.AccountController|Register |url: http://localhost/api/Account/REGISTER-SELLER|action: SellerRegister
+2020-05-06 11:08:49.0461||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 11:08:57.6470||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 13:32:06.2638||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 13:32:28.9199||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 13:42:20.6567||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 13:43:25.9252||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 14:50:32.5391||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 14:50:49.5431||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
+2020-05-06 15:31:15.8394||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-06 15:31:54.0900||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
