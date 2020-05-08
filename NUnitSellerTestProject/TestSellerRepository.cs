@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using SellerService.Models;
 
 namespace NUnitSellerTestProject
 {
@@ -76,13 +77,12 @@ namespace NUnitSellerTestProject
         {
             try
             {
-                Seller seller = await sellerRepository.ViewSellerProfile(2);
-                seller.Mobileno = "8561134678";
-                await sellerRepository.EditSellerProfile(seller);
-                Seller seller1 = await sellerRepository.ViewSellerProfile(2);
-                var mock = new Mock<ISellerManager>();
-                mock.Setup(x => x.ViewSellerProfile(2));
-                Assert.AreSame(seller, seller1);
+                SellerDetails seller = new SellerDetails() { Sid = 1234, Username = "manaswi", Password = "manaswi@", Companyname = "accenture", Gst = 78, Aboutcmpy = "good", Address = "mumbai", Website = "www.accenture.com", Email = "manaswi@gmail.com", Mobileno = "9478654567" };
+                var mock = new Mock<ISellerRepository>();
+                mock.Setup(x => x.EditSellerProfile(seller)).ReturnsAsync(true);
+                var result = await sellerRepository.EditSellerProfile(seller);
+                Assert.IsNotNull(result);
+                Assert.AreEqual(true, result);
             }
             catch (Exception e)
             {
@@ -98,13 +98,12 @@ namespace NUnitSellerTestProject
         {
             try
             {
-                Seller seller = await sellerRepository.ViewSellerProfile(7);
-                seller.Mobileno = "9852364712";
-                await sellerRepository.EditSellerProfile(seller);
-                Seller seller1 = await sellerRepository.ViewSellerProfile(2);
-                var mock = new Mock<ISellerManager>();
-                mock.Setup(x => x.ViewSellerProfile(2));
-                Assert.AreNotSame(seller, seller1);
+
+                SellerDetails seller = new SellerDetails() { Sid = 507, Username = "manaswi", Password = "manaswi@", Companyname = "accenture", Gst = 78, Aboutcmpy = "good", Address = "mumbai", Website = "www.accenture.com", Email = "manaswi@gmail.com", Mobileno = "9478654567" };
+                var mock = new Mock<ISellerRepository>();
+                mock.Setup(x => x.EditSellerProfile(seller)).ReturnsAsync(false);
+                var result = await sellerRepository.EditSellerProfile(seller);
+                Assert.AreEqual(false, result);
             }
             catch (Exception e)
             {

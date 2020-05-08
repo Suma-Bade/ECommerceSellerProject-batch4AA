@@ -1,4 +1,5 @@
 ﻿using SellerService.Entities;
+using SellerService.Models;
 using SellerService.Repositories;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace SellerService.Manager
         {
             _isellerRepository = isellerRepository;
         }
-        public async Task<bool> EditSellerProfile(Seller seller)
+        public async Task<bool> EditSellerProfile(SellerDetails seller)
         {
             bool user = await _isellerRepository.EditSellerProfile(seller);
             if (user)
@@ -27,16 +28,26 @@ namespace SellerService.Manager
             }
         }
 
-        public async Task<Seller> ViewSellerProfile(int sid)
+        public async Task<SellerDetails> ViewSellerProfile(int sid)
         {
-            Seller seller = await _isellerRepository.ViewSellerProfile(sid);
+            SellerDetails seller = await _isellerRepository.ViewSellerProfile(sid);
             if (seller == null)
             {
                 return null;
             }
             else
             {
-                return seller;
+                SellerDetails seller1 = new SellerDetails();
+                seller1.Username = seller.Username;
+                seller1.Password = seller.Password;
+                seller1.Gst = seller.Gst;
+                seller1.Companyname = seller.Companyname;
+                seller1.Aboutcmpy = seller.Aboutcmpy;
+                seller1.Address = seller.Address;
+                seller1.Website = seller.Website;
+                seller1.Email = seller.Email;
+                seller1.Mobileno = seller.Mobileno;
+                return seller1;
             }
         }
     }

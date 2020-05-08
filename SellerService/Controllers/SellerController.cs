@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SellerService.Entities;
 using SellerService.Manager;
+using SellerService.Models;
 using SellerService.Repositories;
 
 namespace SellerService.Controllers
@@ -22,7 +23,7 @@ namespace SellerService.Controllers
         }
         [HttpPost]
         [Route("EditProfile")]
-        public async Task<IActionResult> EditSellerProfile(Seller seller)
+        public async Task<IActionResult> EditSellerProfile(SellerDetails seller)
         {
             return Ok(await _iSellerManager.EditSellerProfile(seller));
 
@@ -32,7 +33,7 @@ namespace SellerService.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> ViewSellerProfile(int sid)
         {
-            Seller seller = await _iSellerManager.ViewSellerProfile(sid);
+            SellerDetails seller = await _iSellerManager.ViewSellerProfile(sid);
             if (seller == null)
                 return Ok("Invalid User");
             else

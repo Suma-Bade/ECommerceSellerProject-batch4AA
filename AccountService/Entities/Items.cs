@@ -6,8 +6,7 @@ namespace AccountService.Entities
     public partial class Items
     {
         public int Id { get; set; }
-        public string Categoryname { get; set; }
-        public string Subcategoryname { get; set; }
+        public int Sid { get; set; }
         public string Price { get; set; }
         public string Itemname { get; set; }
         public string Description { get; set; }

@@ -9366,6 +9366,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AccountService >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.3",
+      "Microsoft.Extensions.Logging >= 3.1.3",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "Moq >= 4.14.1",
       "NLog.Web.AspNetCore >= 4.9.2",
@@ -9418,6 +9420,14 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.4.0, )"

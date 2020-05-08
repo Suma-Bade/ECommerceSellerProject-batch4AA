@@ -1,4 +1,5 @@
 ﻿using SellerService.Entities;
+using SellerService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,13 +14,30 @@ namespace SellerService.Repositories
         {
             _context = context;
         }
-        public async Task<bool> EditSellerProfile(Seller seller)
+        public async Task<bool> EditSellerProfile(SellerDetails seller)
         {
-            _context.Update(seller);
-            var user = await _context.SaveChangesAsync();
-            if (user > 0)
+            Seller seller1 = _context.Seller.Find(seller.Sid);
+            if (seller1 != null)
             {
-                return true;
+                seller1.Username = seller.Username;
+                seller1.Password = seller.Password;
+                seller1.Gst = seller.Gst;
+                seller1.Companyname = seller.Companyname;
+                seller1.Aboutcmpy = seller.Aboutcmpy;
+                seller1.Address = seller.Address;
+                seller1.Website = seller.Website;
+                seller1.Email = seller.Email;
+                seller1.Mobileno = seller.Mobileno;
+                _context.Seller.Update(seller1);
+                var user = await _context.SaveChangesAsync();
+                if (user > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
             else
             {
@@ -27,13 +45,26 @@ namespace SellerService.Repositories
             }
         }
 
-        public async Task<Seller> ViewSellerProfile(int sid)
+        public async Task<SellerDetails> ViewSellerProfile(int sid)
         {
             Seller seller = await _context.Seller.FindAsync(sid);
             if (seller == null)
                 return null;
             else
-                return seller;
+            {
+                SellerDetails seller1 = new SellerDetails();
+                seller1.Username = seller.Username;
+                seller1.Password = seller.Password;
+                seller1.Gst = seller.Gst;
+                seller1.Companyname = seller.Companyname;
+                seller1.Aboutcmpy = seller.Aboutcmpy;
+                seller1.Address = seller.Address;
+                seller1.Website = seller.Website;
+                seller1.Email = seller.Email;
+                seller1.Mobileno = seller.Mobileno;
+                return seller1;
+
+            }
         }
     }
 }

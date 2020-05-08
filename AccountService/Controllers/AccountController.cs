@@ -21,24 +21,24 @@ namespace AccountService.Controllers
     {
         
         private readonly IAccountManager _iAccountManager;
-       // private readonly ILogger<AccountController> _logger;
-        public AccountController( IAccountManager iAccountManager)
+       private readonly ILogger<AccountController> _logger;
+        public AccountController( IAccountManager iAccountManager, ILogger<AccountController> logger)
         {
             
             _iAccountManager = iAccountManager;
-            //_logger = logger;
+            _logger = logger;
         }
         [HttpPost]
         [Route("REGISTER-SELLER")]
         public async Task<bool> SellerRegister(SellerRegister seller)
         {
 
-            //_logger.LogInformation("Register");
+            _logger.LogInformation("Register");
             
             
             //Null Checking -
            var result= await _iAccountManager.SellerRegister(seller);
-            //_logger.LogInformation($"Succesfully Registered");
+            _logger.LogInformation($"Succesfully Registered");
             if(result==true)
             {
                 return result;
@@ -51,7 +51,7 @@ namespace AccountService.Controllers
         public async Task<IActionResult> SellerLogin(string uname, string pwd)
         {
 
-           // _logger.LogInformation("Login");
+           _logger.LogInformation("Login");
             var seller = await _iAccountManager.ValidateSeller(uname, pwd);
 
             if (seller != null)
@@ -59,7 +59,7 @@ namespace AccountService.Controllers
                 //Null Checking-
                 return Ok(seller);
             }
-           // _logger.LogInformation($"Welcome {seller.Username}");
+            _logger.LogInformation($"Welcome {seller.Username}");
             return Ok(seller);
 
         }

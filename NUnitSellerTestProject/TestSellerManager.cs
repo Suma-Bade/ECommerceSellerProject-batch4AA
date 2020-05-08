@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using SellerService.Entities;
 using SellerService.Manager;
+using SellerService.Models;
 using SellerService.Repositories;
 using System;
 using System.Collections.Generic;
@@ -33,7 +34,7 @@ namespace NUnitSellerTestProject
         [TestCase(2)]
         [TestCase(7)]
         [Description("testing seller Profile")]
-        public async Task SellerProfile_Successfull(int sid)
+        public async Task SellerProfileSuccess(int sid)
         {
             try
             {
@@ -47,6 +48,9 @@ namespace NUnitSellerTestProject
                 Assert.Fail(e.Message);
             }
         }
+        /// <summary>
+        /// Testing buyer profile
+        /// </summary>
         /// <summary>
         /// Testing seller profile
         /// </summary>
@@ -68,28 +72,19 @@ namespace NUnitSellerTestProject
                 Assert.Fail(e.Message);
             }
         }
-        /// <summary>
-       
-        /// </summary>
+        
         [Test]
         [Description("testing seller edit Profile")]
         public async Task EditSellerProfile_Success()
         {
             try
             {
-                //Seller seller = await iSellerManager.ViewSellerProfile(2);
-                //seller.Mobileno = "8561134678";
-                //await iSellerManager.EditSellerProfile(seller);
-                //Seller seller1 = await iSellerManager.ViewSellerProfile(2);
-                //var mock = new Mock<ISellerManager>();
-                //mock.Setup(x => x.ViewSellerProfile(2));
-                //Assert.AreSame(seller, seller1);
-                Seller seller = new Seller() { Sid = 2 };
+                SellerDetails seller = new SellerDetails() { Sid = 1234, Username = "manaswi", Password = "manaswi@", Companyname = "accenture", Gst = 78, Aboutcmpy = "good", Address ="mumbai", Website = "www.accenture.com", Email = "manaswi@gmail.com", Mobileno ="9478654567" };
                 var mock = new Mock<ISellerRepository>();
                 mock.Setup(x => x.EditSellerProfile(seller)).ReturnsAsync(true);
-                SellerManager sellerManager = new SellerManager(mock.Object);
-                var result = sellerManager.EditSellerProfile(seller);
-                Assert.NotNull(result);
+                SellerManager sellerManager= new SellerManager(mock.Object);
+                var result = await sellerManager.EditSellerProfile(seller);
+                Assert.IsNotNull(result);
                 Assert.AreEqual(true, result);
             }
             catch (Exception e)
@@ -97,31 +92,27 @@ namespace NUnitSellerTestProject
                 Assert.Fail(e.Message);
             }
         }
-        /// <summary>
-        /// Testing seller profile
-        /// </summary>
+        
         [Test]
         [Description("testing seller edit Profile")]
-        public async Task EditSellerProfile_UnSuccessfull()
+        public async Task EditSellerProfile_UnSuccess()
         {
             try
             {
-                Seller seller = await iSellerManager.ViewSellerProfile(7);
-                seller.Mobileno= "9852364712";
-                await iSellerManager.EditSellerProfile(seller);
-                Seller seller1= await iSellerManager.ViewSellerProfile(2);
-                var mock = new Mock<ISellerManager>();
-                mock.Setup(x => x.ViewSellerProfile(2));
-                Assert.AreNotSame(seller, seller1);
+                SellerDetails seller = new SellerDetails() { Sid = 508, Username = "manaswi", Password = "manaswi@", Companyname = "accenture", Gst = 78, Aboutcmpy = "good", Address = "mumbai", Website = "www.accenture.com", Email = "manaswi@gmail.com", Mobileno = "9478654567" };
+                var mock = new Mock<ISellerRepository>();
+                mock.Setup(x => x.EditSellerProfile(seller)).ReturnsAsync(false);
+                SellerManager sellerManager = new SellerManager(mock.Object);
+                var result = await sellerManager.EditSellerProfile(seller);
+                Assert.AreEqual(false, result);
             }
             catch (Exception e)
             {
                 Assert.Fail(e.Message);
             }
-
         }
 
     }
 }
 
-   
+

@@ -136,6 +136,3 @@ C:\Suma Cts\SellerService\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 C:\Suma Cts\SellerService\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 C:\Suma Cts\SellerService\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Suma Cts\SellerService\bin\Debug\netcoreapp3.1\Moq.dll
-C:\Suma Cts\SellerService\obj\Debug\netcoreapp3.1\SellerService.csproj.CoreCompileInputs.cache
-C:\Suma Cts\SellerService\obj\Debug\netcoreapp3.1\SellerService.MvcApplicationPartsAssemblyInfo.cs
-C:\Suma Cts\SellerService\obj\Debug\netcoreapp3.1\SellerService.MvcApplicationPartsAssemblyInfo.cache

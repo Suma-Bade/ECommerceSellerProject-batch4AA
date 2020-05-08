@@ -1,4 +1,5 @@
 ﻿using SellerService.Entities;
+using SellerService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ namespace SellerService.Repositories
 {
     public interface ISellerRepository
     {
-        public Task<Seller> ViewSellerProfile(int sid);
-        public Task<bool> EditSellerProfile(Seller seller);
+        public Task<SellerDetails> ViewSellerProfile(int sid);
+        public Task<bool> EditSellerProfile(SellerDetails seller);
     }
 }
