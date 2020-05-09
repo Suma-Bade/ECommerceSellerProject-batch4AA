@@ -223,3 +223,4 @@ C:\Suma Cts\NUnitTesting\obj\Debug\netcoreapp3.1\NUnitTesting.csproj.CopyComplet
 C:\Suma Cts\NUnitTesting\obj\Debug\netcoreapp3.1\NUnitTesting.dll
 C:\Suma Cts\NUnitTesting\obj\Debug\netcoreapp3.1\NUnitTesting.pdb
 C:\Suma Cts\NUnitTesting\obj\Debug\netcoreapp3.1\NUnitTesting.genruntimeconfig.cache
+C:\Suma Cts\NUnitTesting\obj\Debug\netcoreapp3.1\NUnitTesting.csproj.CoreCompileInputs.cache

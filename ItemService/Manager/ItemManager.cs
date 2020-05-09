@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ItemService.Manager
 {
-    public class ItemManager
+    public class ItemManager:IItemManager
     {
         private readonly IItemRepository _itemRepository;
         public ItemManager(IItemRepository itemRepository)
@@ -29,12 +29,12 @@ namespace ItemService.Manager
 
         }
 
-        public List<Items> ViewItemsManager(int sid)
+        
+        public List<Items> ViewItemsManager(int sellerid)
         {
-            List<Items> items = _itemRepository.ViewItems(sid);
+            List<Items> items = _itemRepository.ViewItems(sellerid);
             return items;
         }
-
 
     }
 }

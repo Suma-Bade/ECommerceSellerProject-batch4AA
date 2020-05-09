@@ -38,9 +38,11 @@ namespace NUnitSellerTestProject
         {
             try
             {
-                var result = await iSellerManager.ViewSellerProfile(sid);
-                var mock = new Mock<ISellerManager>();
-                mock.Setup(x => x.ViewSellerProfile(sid));
+                SellerDetails seller = new SellerDetails();
+                var mock = new Mock<ISellerRepository>();
+                mock.Setup(x => x.ViewSellerProfile(sid)).ReturnsAsync(seller);
+                SellerManager sellerManager = new SellerManager(mock.Object);
+                var result = await sellerManager.ViewSellerProfile(sid);
                 Assert.NotNull(result);
             }
             catch (Exception e)
@@ -62,10 +64,12 @@ namespace NUnitSellerTestProject
         {
             try
             {
-                var result = await iSellerManager.ViewSellerProfile(sid);
-                var mock = new Mock<ISellerManager>();
+                SellerDetails seller = new SellerDetails();
+                var mock = new Mock<ISellerRepository>();
                 mock.Setup(x => x.ViewSellerProfile(sid));
-                Assert.IsNull(result);
+                SellerManager sellerManager = new SellerManager(mock.Object);
+                var result = await sellerManager.ViewSellerProfile(sid);
+                Assert.IsNull(result,"invalid seller");
             }
             catch (Exception e)
             {

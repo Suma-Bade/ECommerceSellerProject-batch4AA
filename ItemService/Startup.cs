@@ -2,12 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ItemService.Entities;
 using ItemService.Extensions;
 using ItemService.Manager;
 using ItemService.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -29,8 +31,10 @@ namespace ItemService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //services.AddTransient<IItemManager, ItemManager>();
-            //services.AddTransient<IItemRepository, ItemRepository>();
+            services.AddDbContext<ECommerceDBContext>
+           (options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IItemManager, ItemManager>();
+            services.AddTransient<IItemRepository, ItemRepository>();
             services.AddCors(c =>
             {
                 c.AddPolicy("AllowOrigin", options =>

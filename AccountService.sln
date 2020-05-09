@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService", "..\..\..\Suma Cts\AccountService\AccountService.csproj", "{AF0EBC20-B7B4-479E-A795-90D1E596C9D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTesting", "..\..\..\Suma Cts\NUnitTesting\NUnitTesting.csproj", "{CBBB5BD5-4880-4B2B-A456-7C2DC17D8A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitAccountTestProject", "..\..\..\Suma Cts\NUnitTesting\NUnitAccountTestProject.csproj", "{CBBB5BD5-4880-4B2B-A456-7C2DC17D8A8E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SellerService", "..\..\..\Suma Cts\SellerService\SellerService.csproj", "{77E7F330-7048-44CA-967C-3B041EE452A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitSellerTestProject", "..\..\..\Suma Cts\NUnitSellerTestProject\NUnitSellerTestProject.csproj", "{8192D6D4-0F54-4748-B58D-5B3339C1D5AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemService", "..\..\..\Suma Cts\ItemService\ItemService.csproj", "{773C32B6-A817-4AA4-8844-10FF5DD0581D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItemService", "..\..\..\Suma Cts\ItemService\ItemService.csproj", "{773C32B6-A817-4AA4-8844-10FF5DD0581D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

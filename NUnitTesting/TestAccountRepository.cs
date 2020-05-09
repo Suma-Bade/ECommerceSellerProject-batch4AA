@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NUnitTesting
+namespace NUnitAccountTestProject
 {
     [TestFixture]
     public class TestAccountRepository

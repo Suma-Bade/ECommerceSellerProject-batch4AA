@@ -134,3 +134,6 @@ C:\Suma Cts\ItemService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI
 C:\Suma Cts\ItemService\bin\Debug\netcoreapp3.1\NLog.dll
 C:\Suma Cts\ItemService\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 C:\Suma Cts\ItemService\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Suma Cts\ItemService\obj\Debug\netcoreapp3.1\ItemService.csproj.CoreCompileInputs.cache
+C:\Suma Cts\ItemService\obj\Debug\netcoreapp3.1\ItemService.MvcApplicationPartsAssemblyInfo.cs
+C:\Suma Cts\ItemService\obj\Debug\netcoreapp3.1\ItemService.MvcApplicationPartsAssemblyInfo.cache

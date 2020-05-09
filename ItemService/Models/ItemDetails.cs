@@ -8,6 +8,7 @@ namespace ItemService.Models
     public class ItemDetails
     {
         public int Id { get; set; }
+        public int Sid { get; set; }
         public string Price { get; set; }
         public string Itemname { get; set; }
         public string Description { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ItemService.Repositories
 {
-    public class ItemRepository
+    public class ItemRepository:IItemRepository
     {
         private readonly ECommerceDBContext _context;
         public ItemRepository(ECommerceDBContext context)
@@ -20,6 +20,7 @@ namespace ItemService.Repositories
             if (items != null)
             {
                 items1.Id = items.Id;
+                items1.Sid = items.Sid;
                 items1.Itemname = items.Itemname;
                 items1.Price = items.Price;
                 items1.Remarks = items.Remarks;
@@ -37,17 +38,30 @@ namespace ItemService.Repositories
 
         public void DeleteItems(int id)
         {
-            Items i = _context.Items.Find(id);
-            _context.Remove(i);
+            Items items = _context.Items.Find(id);
+            Items items1 = new Items();
+            if (items != null)
+            {
+                items1.Id = items.Id;
+                items1.Sid = items.Sid;
+                items1.Itemname = items.Itemname;
+                items1.Price = items.Price;
+                items1.Remarks = items.Remarks;
+                items1.Stockno = items.Stockno;
+                items1.Description = items.Description;
+
+            }
+            _context.Remove(items1);
             _context.SaveChanges();
+
 
         }
 
+       
         public List<Items> ViewItems(int sid)
         {
             return _context.Items.Where(e => e.Sid == sid).ToList();
         }
-
 
     }
 }

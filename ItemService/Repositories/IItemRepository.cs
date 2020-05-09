@@ -11,7 +11,8 @@ namespace ItemService.Repositories
     {
         public Task<bool> AddItems(ItemDetails items);
         public void DeleteItems(int id);
-        public List<Items> ViewItems(int sid);
+       public List<Items> ViewItems(int sid);
+        
 
     }
 }

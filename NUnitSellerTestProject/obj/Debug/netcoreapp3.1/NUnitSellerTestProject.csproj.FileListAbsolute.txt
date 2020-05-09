@@ -215,3 +215,4 @@ C:\Suma Cts\NUnitSellerTestProject\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Suma Cts\NUnitSellerTestProject\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Suma Cts\NUnitSellerTestProject\obj\Debug\netcoreapp3.1\NUnitSellerTestProject.dll
 C:\Suma Cts\NUnitSellerTestProject\obj\Debug\netcoreapp3.1\NUnitSellerTestProject.pdb
+C:\Suma Cts\NUnitSellerTestProject\obj\Debug\netcoreapp3.1\NUnitSellerTestProject.csproj.CoreCompileInputs.cache

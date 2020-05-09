@@ -12,5 +12,6 @@ namespace ItemService.Manager
         List<Items> ViewItemsManager(int sid);
         Task<bool> AddItemsManager(ItemDetails obj);
         public void DeleteItemsManager(int id);
+       
     }
 }

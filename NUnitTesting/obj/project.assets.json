@@ -9382,9 +9382,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Suma Cts\\NUnitTesting\\NUnitTesting.csproj",
-      "projectName": "NUnitTesting",
-      "projectPath": "C:\\Suma Cts\\NUnitTesting\\NUnitTesting.csproj",
+      "projectUniqueName": "C:\\Suma Cts\\NUnitTesting\\NUnitAccountTestProject.csproj",
+      "projectName": "NUnitAccountTestProject",
+      "projectPath": "C:\\Suma Cts\\NUnitTesting\\NUnitAccountTestProject.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "C:\\Suma Cts\\NUnitTesting\\obj\\",
       "projectStyle": "PackageReference",

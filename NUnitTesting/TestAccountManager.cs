@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NUnitTesting
+namespace NUnitAccountTestProject
 {
     public class TestAccountManager
     {

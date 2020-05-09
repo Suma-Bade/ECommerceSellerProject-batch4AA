@@ -1,0 +1,2 @@
+2020-05-09 09:33:02.2758||DEBUG|AccountService.Program|init main function |url: |action: 
+2020-05-09 09:38:32.2109||INFO|AccountService.Controllers.AccountController|Login |url: http://localhost/api/Account/SellerLogin/suma/bade123|action: SellerLogin
