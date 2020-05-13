@@ -22,7 +22,7 @@ namespace TestAccountProject
             _builder = new DbContextOptionsBuilder<ECommerceDBContext>().EnableSensitiveDataLogging().UseInMemoryDatabase(Guid.NewGuid().ToString());
             ECommerceDBContext eCommerceDBContext = new ECommerceDBContext(_builder.Options);
             AccountRepository = new AccountRepository(eCommerceDBContext);
-            eCommerceDBContext.Seller.Add(new Seller { Sellerid = 900, Username ="priyanka", Password ="priyanka@", Companyname ="infosys", Gst = 47, Aboutcmpy ="gud", Address = "bangalore", Website ="www.infy.com", Email ="priya13@gmail.com", Mobileno ="9535678900"        });
+            eCommerceDBContext.Seller.Add(new Seller { Sellerid = 700, Username ="kalyani", Password ="kalyani@", Companyname ="infosys", Gst = 47, Aboutcmpy ="gud", Address = "bangalore", Website ="www.infy.com", Email ="priya13@gmail.com", Mobileno ="9535678900"        });
             eCommerceDBContext.SaveChanges();
         }
 
