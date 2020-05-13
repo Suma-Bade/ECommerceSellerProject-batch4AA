@@ -1,15 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using AccountService.Extensions;
-using AccountService.Entities;
-using AccountService.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using static AccountService.Extensions.CustomExceptionFilter;
 using AccountService.Manager;
 using AccountService.Models;
 
@@ -28,45 +20,69 @@ namespace AccountService.Controllers
             _iAccountManager = iAccountManager;
             _logger = logger;
         }
+        /// <summary>
+        /// Add a new Seller to a List.
+        /// </summary>
+        /// <param name="userDetails"></param>
+        /// <returns></returns>
+        /// /// <response code="200">Successful operation</response>
+        /// <response code="400">Bad Request/Request Invalid </response>
+        /// <response code="404">Requested Resouce  not found</response>
+        /// <response code="500">Internal server Error</response>
         [HttpPost]
         [Route("REGISTER-SELLER")]
-        public async Task<bool> SellerRegister(SellerRegister seller)
+        [ProducesResponseType(200, Type = typeof(bool))]
+        [ProducesResponseType(404, Type = typeof(string))]
+        public async Task<IActionResult> SellerRegister(SellerRegister seller)
         {
 
             _logger.LogInformation("Register");
-            
-            
-            //Null Checking -
-           var result= await _iAccountManager.SellerRegister(seller);
-            _logger.LogInformation($"Succesfully Registered");
-            if(result==true)
+            if (seller is null)
             {
-                return result;
+                return BadRequest("Seller already exists");
             }
-            return result;
-
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            await _iAccountManager.SellerRegister(seller);
+            _logger.LogInformation("Succesfully Registered");
+            return Ok();
         }
+        /// <summary>
+        /// Login with username and password
+        /// </summary>
+        /// <param name="SellerLogin"></param>
+        /// <returns></returns>
+        /// /// <response code="200">Successful operation</response>
+        /// <response code="400">Bad Request/Request Invalid </response>
+        /// <response code="404">Requested Resouce  not found</response>
+        /// <response code="500">Internal server Error</response>
+        [HttpPost]
+        [Route("UserLogin")]
+        [ProducesResponseType(200, Type = typeof(SellerLogin))]
+        [ProducesResponseType(404, Type = typeof(string))]
         [HttpGet]
         [Route("SellerLogin/{username}/{password}")]
         public async Task<IActionResult> SellerLogin(string username, string password)
         {
+            //Input is userName and userPassword 
+            //Returns  respected SellerLogin if the entered credentials are valid else it gives an invalid message
 
-           _logger.LogInformation("Login");
-            var seller = await _iAccountManager.ValidateSeller(username, password);
+            _logger.LogInformation("Login");
+            SellerLogin seller = await _iAccountManager.ValidateSeller(username, password);
 
-            if (seller != null)
+            if (seller == null)
             {
                 //Null Checking-
+                return Ok("Invalid User");
+            }
+            else
+            {
+                _logger.LogInformation($"Welcome {seller.Username}");
                 return Ok(seller);
             }
-            _logger.LogInformation($"Welcome {seller.Username}");
-            return Ok(seller);
-
         }
 
-        public Task<Seller> SellerLogin(SellerLogin user)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

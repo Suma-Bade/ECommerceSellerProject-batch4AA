@@ -9404,23 +9404,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "C:\\Users\\win8.1\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Suma Cts\\TestAccountProject\\TestAccountProject.csproj",
+      "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj",
       "projectName": "TestAccountProject",
-      "projectPath": "C:\\Suma Cts\\TestAccountProject\\TestAccountProject.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Suma Cts\\TestAccountProject\\obj\\",
+      "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj",
+      "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
+      "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9433,8 +9433,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Suma Cts\\AccountService\\AccountService.csproj": {
-              "projectPath": "C:\\Suma Cts\\AccountService\\AccountService.csproj"
+            "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {
+              "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj"
             }
           }
         }

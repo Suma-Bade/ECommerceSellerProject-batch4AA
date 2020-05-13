@@ -1,22 +1,22 @@
-﻿using AccountService.Entities;
-using AccountService.Manager;
+﻿using AccountService.Manager;
 using AccountService.Models;
 using AccountService.Repositories;
 using Moq;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Threading.Tasks;
 
 namespace TestAccountProject
 {
     public class TestAccountManager
     {
-        private IAccountManager AccountManager;
+        IAccountManager AccountManager;
+        private Mock<IAccountRepository> mockAccountManager;
         [SetUp]
         public void SetUp()
         {
-            AccountManager = new AccountManager(new AccountRepository(new ECommerceDBContext()));
+            mockAccountManager = new Mock<IAccountRepository>();
+            AccountManager = new AccountManager(mockAccountManager.Object);
         }
         [TearDown]
         public void TearDown()
@@ -28,20 +28,21 @@ namespace TestAccountProject
         /// Testing register seller functionality for a new seller
         /// </summary>
         [Test]
-        [TestCase(9090, "parnitha", "parnitha@", "6475JH6754", "virtusa", "good", "bangalore", "www.virtusa.com", "parnitha@gmail.com", "9123479543")]
+        [TestCase(9090, "parnitha", "parnitha@", "virtusa",789890, "good", "bangalore", "www.virtusa.com", "parnitha@gmail.com", "9123479543")]
         //[TestCase("aarush", "aarush!", "tcs", "good", "chennai", "www.tcs.com", "aarush@gmail.com", "9973473256")]
         [Description("Test for SellerRegistration Success")]
-        public void TestSellerRegister(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
+        public async Task TestSellerRegister(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
         {
             
             try
             {
-                var Datetime = System.DateTime.Now;
                 var seller = new SellerRegister { Sellerid = sid, Username = username, Password = password, Companyname = companyname, Gst = gst, Aboutcmpy = aboutcmpy, Address = address, Website = website, Email = email, Mobileno = mobileno };
-                var res = AccountManager.SellerRegister(seller);
-                var mock = new Mock<IAccountManager>();
-                mock.Setup(x => x.SellerRegister(seller));
-                Assert.AreEqual(res.Result, true);
+                var mock = new Mock<IAccountRepository>();
+                mock.Setup(x => x.SellerRegister(seller)).ReturnsAsync(true);
+                AccountManager accountManager = new AccountManager(mock.Object);
+                var result = await accountManager.SellerRegister(seller);
+                Assert.IsNotNull(result, "test method failed SellerRegister method is null");
+                Assert.AreEqual(true,result);
             }
             catch (Exception e)
             {
@@ -49,21 +50,25 @@ namespace TestAccountProject
             }
 
         }
+        /// <summary>
+        /// Testing register seller functionality for a new seller fails if already registered
+        /// </summary>
         [Test]
-        [TestCase()]
+        [TestCase(9090, "parnitha", "parnitha@", "virtusa", 789890, "good", "bangalore", "www.virtusa.com", "parnitha@gmail.com", "9123479543")]
         // [TestCase(65544, "renu", "renu777", "virtusa", 34, "good", "bangalore", "www.virtusa.com", "renusri@gmail.com", "9123479543")]
         [Description("Test for SellerRegistration UnSuccess")]
-        public void TestSellerRegister_Unsuccess(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
+        public async Task TestSellerRegister_Unsuccess(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
         {
 
             try
             {
-                var Datetime = System.DateTime.Now;
                 var seller = new SellerRegister { Sellerid = sid, Username = username, Password = password, Companyname = companyname, Gst = gst, Aboutcmpy = aboutcmpy, Address = address, Website = website, Email = email, Mobileno = mobileno };
-                var res = AccountManager.SellerRegister(seller);
-                var mock = new Mock<IAccountManager>();
-                mock.Setup(x => x.SellerRegister(seller));
-                Assert.AreEqual(res.Result, true);
+                var mock = new Mock<IAccountRepository>();
+                mock.Setup(x => x.SellerRegister(seller)).ReturnsAsync(false);
+                AccountManager accountManager = new AccountManager(mock.Object);
+                var result = await accountManager.SellerRegister(seller);
+                Assert.IsNotNull(result, "test method failed SellerRegister method is null");
+                Assert.AreEqual(false,result);
             }
             catch (Exception e)
             {
@@ -75,14 +80,19 @@ namespace TestAccountProject
         // <summary>
         /// Service should return seller if correct usename and password is supplied
         /// </summary>
-
-        [Description("Seller Login Success")]
-        public void SellerLogin_Success()
+        [TestCase("rahul","rahul123")]
+        [TestCase("pranitha","pranitha@")]
+        [Description("Seller Login Success returns seller details")]
+        public async Task SellerLogin_Success(string username,string password)
         {
             try
             {
-                var result = AccountManager.ValidateSeller("suma", "bade123");
-                Assert.IsNotNull(result);
+                var seller = new SellerLogin ();
+                var mock = new Mock<IAccountRepository>();
+                mock.Setup(x => x.ValidateSeller(username,password)).ReturnsAsync(seller);
+                AccountManager accountManager = new AccountManager(mock.Object);
+                var result = await accountManager.ValidateSeller(username,password);
+                Assert.IsNotNull(result, "test method fail SellerLogin method is null");
             }
             catch (Exception e)
             {
@@ -90,13 +100,17 @@ namespace TestAccountProject
             }
         }
         [Test]
+        [TestCase("renu","renu23")]
         [Description("Seller Login UnSuccess")]
-        public void SellerLogin_Unsuccess()
+        public async Task SellerLogin_Unsuccess(string username,string password)
         {
             try
             {
-                var result = AccountManager.ValidateSeller("srija", "srija12123");
-                Assert.IsNotNull(result);
+                var mock = new Mock<IAccountRepository>();
+                mock.Setup(x => x.ValidateSeller(username, password)).ReturnsAsync((SellerLogin)(null));
+                AccountManager accountManager = new AccountManager(mock.Object);
+                var result = await accountManager.ValidateSeller(username, password);
+                Assert.IsNull(result, "test method fail SellerLogin method is not null");
             }
             catch (Exception e)
             {

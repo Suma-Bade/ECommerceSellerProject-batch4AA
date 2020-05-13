@@ -11,6 +11,5 @@ namespace AccountService.Manager
     {
         Task<SellerLogin> ValidateSeller(string username, string password);
         Task<bool> SellerRegister(SellerRegister seller);
-        Task SellerRegister(Seller seller);
     }
 }

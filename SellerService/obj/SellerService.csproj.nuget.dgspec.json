@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Suma Cts\\SellerService\\SellerService.csproj": {}
+    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {}
   },
   "projects": {
-    "C:\\Suma Cts\\SellerService\\SellerService.csproj": {
+    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Suma Cts\\SellerService\\SellerService.csproj",
+        "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj",
         "projectName": "SellerService",
-        "projectPath": "C:\\Suma Cts\\SellerService\\SellerService.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Suma Cts\\SellerService\\obj\\",
+        "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj",
+        "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
+        "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

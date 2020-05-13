@@ -9300,23 +9300,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "C:\\Users\\win8.1\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Suma Cts\\TestSellerProject\\TestSellerProject.csproj",
+      "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\TestSellerProject.csproj",
       "projectName": "TestSellerProject",
-      "projectPath": "C:\\Suma Cts\\TestSellerProject\\TestSellerProject.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Suma Cts\\TestSellerProject\\obj\\",
+      "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\TestSellerProject.csproj",
+      "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
+      "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9329,8 +9329,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Suma Cts\\SellerService\\SellerService.csproj": {
-              "projectPath": "C:\\Suma Cts\\SellerService\\SellerService.csproj"
+            "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {
+              "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj"
             }
           }
         }

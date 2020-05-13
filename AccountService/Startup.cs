@@ -54,8 +54,6 @@ namespace AccountService
             );
             services.AddSwaggerGen(c =>
             {
-                //c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
-                //c.RoutePrefix = string.Empty;
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",

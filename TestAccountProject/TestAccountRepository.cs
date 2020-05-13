@@ -2,11 +2,8 @@
 using AccountService.Models;
 using AccountService.Repositories;
 using Microsoft.EntityFrameworkCore;
-using Moq;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace TestAccountProject
@@ -33,25 +30,76 @@ namespace TestAccountProject
         }
 
         /// <summary>
-        /// Testing register seller
+        /// Testing register seller if new seller created successfully
+        /// </summary>
+        [Test]
+        [TestCase(3778, "pranathi", "pranathi@", "mindtree", 34, "good", "bangalore", "www.mindtree.com", "pranathi@gmail.com", "9123409043")]
+        [TestCase(5768, "alekhya", "alekhya!", "tcs", 74, "good", "chennai", "www.tcs.com", "alekhya@gmail.com", "9090473256")]
+        [Description("To test whether details of seller are added to database")]
+        public async Task  TestSellerRegister_onSuccess(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
+        {
+            try
+            {
+                var seller = new SellerRegister
+                {
+                    Sellerid=sid,
+                    Username=username,
+                    Password=password,
+                    Companyname=companyname,
+                    Gst=gst,
+                    Aboutcmpy=aboutcmpy,
+                    Address=address,
+                    Website=website,
+                    Email=email,
+                    Mobileno=mobileno
+                };
+                await AccountRepository.SellerRegister(seller);
+                var result = AccountRepository.ValidateSeller("pranathi", "pranathi@");
+                Assert.NotNull(result);
+            }
+            catch (Exception e)
+            {
+                Assert.Fail(e.InnerException.Message);
+            }
+        }
+        /// <summary>
+        /// Testing register seller if new seller created successfully
         /// </summary>
         [Test]
         [TestCase(3768, "pranathi", "pranathi@", "mindtree", 34, "good", "bangalore", "www.mindtree.com", "pranathi@gmail.com", "9123409043")]
         [TestCase(5778, "alekhya", "alekhya!", "tcs", 74, "good", "chennai", "www.tcs.com", "alekhya@gmail.com", "9090473256")]
-        [Description("To test whether details of seller are added to database")]
-        public void TestSellerRegister(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
+        [Description("To test whether details of seller are not added to database")]
+        public async Task TestSellerRegister_onFail(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
         {
-            var Datetime = System.DateTime.Now;
-            var seller = new SellerRegister { Sellerid = sid, Username = username, Password = password, Companyname = companyname, Gst = gst, Aboutcmpy = aboutcmpy, Address = address, Website = website, Email = email, Mobileno = mobileno };
-            AccountRepository.SellerRegister(seller);
-            var mock = new Mock<IAccountRepository>();
-            mock.Setup(x => x.SellerRegister(seller));
-            var result = AccountRepository.ValidateSeller(username, password);
-            Assert.NotNull(result);
+            try
+            {
+                var seller = new SellerRegister
+                {
+                    Sellerid = sid,
+                    Username = username,
+                    Password = password,
+                    Companyname = companyname,
+                    Gst = gst,
+                    Aboutcmpy = aboutcmpy,
+                    Address = address,
+                    Website = website,
+                    Email = email,
+                    Mobileno = mobileno
+                };
+                var result=await AccountRepository.SellerRegister(seller);
+                Assert.AreEqual(false,result);
+            }
+            catch (Exception e)
+            {
+                Assert.Fail(e.InnerException.Message);
+            }
         }
+        /// <summary>
+        /// Testing seller Login if registered seller login successfully
+        /// </summary>
         [Test]
-        [TestCase("priyanka", "priyanka@")]
-        [Description("testing seller login")]
+        [TestCase("kalyani", "kalyani@")]
+        [Description("testing seller login on success case")]
         public async Task SellerLogin_Successfull(string username, string password)
         {
             try
@@ -64,6 +112,9 @@ namespace TestAccountProject
                 Assert.Fail(e.Message);
             }
         }
+        /// <summary>
+        /// Testing seller Login if registered seller login fails
+        /// </summary>
         [Test]
         [TestCase("priya", "priyanka")]
         [Description("Test seller login failure case")]

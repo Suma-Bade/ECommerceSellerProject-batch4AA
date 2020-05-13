@@ -1,17 +1,12 @@
 ﻿using AccountService.Controllers;
-using AccountService.Entities;
 using AccountService.Manager;
 using AccountService.Models;
-using AccountService.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using System.Web.Http.Results;
 
 namespace TestAccountProject
 {
@@ -29,48 +24,78 @@ namespace TestAccountProject
             accountController = new AccountController(mockAccountManager.Object, logger.Object);
 
         }
+        /// <summary>
+        /// To Test For new user to register
+        /// </summary>
+        /// <returns></returns>
         [Test]
         [TestCase(9090, "prethi", "prethi88", "virtusa", 34, "good", "bangalore", "www.virtusa.com", "prethi@gmail.com", "9123479543")]
         [Description("Test for SellerRegistration Success")]
-        public async Task TestSellerRegister_Success(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
+        public async Task TestSellerRegister_valid_Returns(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
         {
             try
             {
-                SellerRegister sellerRegister= new SellerRegister() { Username = username, Password = password, Companyname = companyname, Aboutcmpy = aboutcmpy, Address = address, Website = website, Email = email, Mobileno = mobileno };
-               mockAccountManager.Setup(x => x.SellerRegister(sellerRegister)).ReturnsAsync(true);
-                var result = await accountController.SellerRegister(sellerRegister);
+                var sellerRegister = new SellerRegister() { Username = username, Password = password, Companyname = companyname, Gst = gst, Aboutcmpy = aboutcmpy, Address = address, Website = website, Email = email, Mobileno = mobileno };
+                mockAccountManager.Setup(d => d.SellerRegister(It.IsAny<SellerRegister>())).ReturnsAsync(new bool());
+                var result = await accountController.SellerRegister(sellerRegister)as OkResult;
                 Assert.That(result, Is.Not.Null);
-                //Assert.That(result.StatusCode, Is.EqualTo(200));
+                Assert.That(result.StatusCode, Is.EqualTo(200));
+
             }
             catch (Exception e)
             {
                 Assert.Fail(e.Message);
             }
         }
-       
-        /// <param name="userName"></param>
-        /// <param name="password"></param>
+        /// <summary>
+        /// To get details of a particular seller by using username and password
+        /// </summary>
+
         /// <returns></returns>
         [Test]
         [TestCase("suma", "bade123")]
         [Description("Seller Login")]
-        public async Task SellerLogin_Successfull(string uname, string pwd)
+        public async Task SellerLogin_Successfull_Returns_NotNull(string username, string password)
         {
             try
             {
-                SellerLogin login = new SellerLogin() { Username = uname, Password = pwd };
-                var result = await accountController.SellerLogin(login);
+                mockAccountManager.Setup(x => x.ValidateSeller(username, password));
+                var result = await accountController.SellerLogin(username, password) as OkObjectResult;
                 Assert.That(result, Is.Not.Null);
-                //Assert.That(result.StatusCode, Is.EqualTo(200));
+                Assert.That(result.StatusCode, Is.EqualTo(200));
+
             }
             catch (Exception e)
             {
                 Assert.Fail(e.Message);
             }
         }
-       
-       
-        
+        /// <summary>
+        /// To Test for failure of SellerLogin of a particular seller and gives response message
+        /// </summary>
+
+        /// <returns></returns>
+        [Test]
+        [TestCase("suma", "suma123")]
+        [Description("Seller Login")]
+        public async Task SellerLogin_Fail_Returns_Null(string username, string password)
+        {
+            try
+            {
+                mockAccountManager.Setup(x => x.ValidateSeller(username, password)).ReturnsAsync((SellerLogin)(null));
+                var result = await accountController.SellerLogin(username, password) as OkObjectResult;
+                Assert.That(result, Is.Null);
+                Assert.That(result.StatusCode, Is.EqualTo(200));
+
+            }
+            catch (Exception e)
+            {
+                Assert.Fail(e.Message);
+            }
+        }
+
+
+
     }
 }
     

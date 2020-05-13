@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Suma Cts\\Gateway\\Gateway.csproj": {}
+    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj": {}
   },
   "projects": {
-    "C:\\Suma Cts\\Gateway\\Gateway.csproj": {
+    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Suma Cts\\Gateway\\Gateway.csproj",
+        "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj",
         "projectName": "Gateway",
-        "projectPath": "C:\\Suma Cts\\Gateway\\Gateway.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Suma Cts\\Gateway\\obj\\",
+        "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj",
+        "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
+        "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

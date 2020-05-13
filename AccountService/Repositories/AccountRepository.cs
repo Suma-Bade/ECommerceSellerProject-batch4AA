@@ -1,10 +1,6 @@
 ﻿using AccountService.Entities;
-using AccountService.Extensions;
 using AccountService.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace AccountService.Repositories
@@ -24,16 +20,6 @@ namespace AccountService.Repositories
         /// <returns></returns>
         public async Task<bool> SellerRegister(SellerRegister seller)
         {
-            //_context.Seller.Add(seller);
-            //var user = await _context.SaveChangesAsync();
-            //if(user>0)
-            //{
-            //    return true;
-            //}
-            //else
-            //{
-            //    return false;
-            //}
             Seller seller1 = new Seller();
             if (seller != null)
             {
@@ -50,11 +36,17 @@ namespace AccountService.Repositories
 
             };
             _context.Add(seller1);
-            var sellerId = await _context.SaveChangesAsync();
-            if (sellerId > 0)
+            await _context.SaveChangesAsync();
+            if ((seller1.Username != seller.Username) && (seller1.Email != seller.Email))
+            {
+                _context.Add(seller1);
+                await _context.SaveChangesAsync();
                 return true;
+            }
             else
+            {
                 return false;
+            }
 
 
         }
@@ -75,7 +67,11 @@ namespace AccountService.Repositories
                     Password = user.Password,
                 };
             }
-            return null;
+            else
+            {
+                return null;
+            }
+            
 
         }
     }
