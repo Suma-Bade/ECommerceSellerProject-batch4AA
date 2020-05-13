@@ -36,14 +36,14 @@
         }
       }
     },
-    "/api/Seller/Profile/{sid}": {
+    "/api/Seller/Profile/{sellerid}": {
       "get": {
         "tags": [
           "Seller"
         ],
         "parameters": [
           {
-            "name": "sid",
+            "name": "sellerid",
             "in": "path",
             "required": true,
             "schema": {
@@ -65,7 +65,7 @@
       "SellerDetails": {
         "type": "object",
         "properties": {
-          "sid": {
+          "sellerid": {
             "type": "integer",
             "format": "int32"
           },

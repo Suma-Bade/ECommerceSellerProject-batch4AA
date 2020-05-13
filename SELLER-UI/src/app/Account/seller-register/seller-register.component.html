@@ -1,1 +1,120 @@
-<p>seller-register works!</p>
+<div class="bg"><div class="topnav">
+    <a href="#">EMART</a>
+   <a routerLink="/HOME">HOME</a>
+</div>
+<div class="sidenav">
+    <a href="/HOME"><i class="fa fa-home"></i> Home</a>
+    
+    <a routerLink="/CONTACT"><i class="fa fa-envelope"></i> Contact</a>
+ </div>
+  <div class="hero-image">
+    <div class="hero-text">
+
+</div>
+  <div class="register-wrap">
+    <h3 align="center">Register Seller</h3>
+    <div class="form-row">
+        <form [formGroup]="sellerForm">
+        
+             <table>       
+<!-- <tr><td><label for="sid" class="label">Seller ID</label></td>
+                 <td>   <input type="text" formControlName="sid" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.sid.errors }" /></td>
+                    <div *ngIf="submitted && f.sid.errors" class="invalid-feedback">
+                        <div *ngIf="f.sid.errors.required">Seller Id is required</div>
+                    </div>
+                </tr>   -->
+                <tr>
+                    <td>    <label for="user" class="label">Username</label></td>
+                  <td>  <input type="text" formControlName="username" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.username.errors }" /></td>
+                    <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                        <div *ngIf="f.username.errors.required">Name is required</div>
+                        <div *ngIf="f.username.errors.pattern">Enter only Alphabets</div>
+                    </div>
+                </tr>
+                <tr>
+                    
+                 <td>       <label for="pass" class="label">Password</label></td>
+             <td>       <input type="text" formControlName="password" class="form-control"data-type="password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" /></td>
+                    <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                        <div *ngIf="f.password.errors.required">Password is required</div>
+                        <div *ngIf="f.password.errors.pattern">Password must be at least 8 characters and end with special character</div>
+                    </div>
+                </tr>
+                <tr>
+                
+                     <td>   <label for="companyname" class="label">Company Name</label></td>
+                  <td>  <input type="text" formControlName="companyname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.companyname.errors }" /></td>
+                    <div *ngIf="submitted && f.companyname.errors" class="invalid-feedback">
+                        <div *ngIf="f.companyname.errors.required">Company Name is required</div>
+                    </div>
+                </tr>
+                <tr>
+
+                     <td>   <label for="gst" class="label">GST</label></td>
+              <td>  <input type="number" formControlName="gst" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.gst.errors }" /></td>
+                <div *ngIf="submitted && f.gst.errors" class="invalid-feedback">
+                    <div *ngIf="f.gst.errors.required">Gst no is required</div>
+                </div>
+            </tr>
+            <tr>
+                    
+                    <td>    <label for="aboutcmpy" class="label">About Cmpy</label></td>
+               <td><textarea  rows="3" cols="25"formControlName="aboutcmpy" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.aboutcmpy.errors }"></textarea></td> 
+                <div *ngIf="submitted && f.aboutcmpy.errors" class="invalid-feedback">
+                    <div *ngIf="f.aboutcmpy.errors.required">About Company is required</div>
+                </div>
+            </tr>
+            <tr>
+                    
+                    <td>    <label for="address" class="label">Address</label></td>
+             <td>  <textarea  rows="3" cols="25" formControlName="address" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.address.errors }"></textarea></td> 
+                <div *ngIf="submitted && f.address.errors" class="invalid-feedback">
+                    <div *ngIf="f.address.errors.required">Address required</div>
+                </div>
+            </tr>
+            <tr>
+                    
+                      <td>  <label for="website" class="label">Website</label></td>
+              <td>  <input type="text" formControlName="website" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.website.errors }" /></td>
+                <div *ngIf="submitted && f.website.errors" class="invalid-feedback">
+                    <div *ngIf="f.website.errors.required">Website is required</div>
+                </div>
+            </tr>
+            <tr>
+                
+                     <td>   <label for="mobileno" class="label">Mobile No</label></td>
+              <td>  <input type="text" formControlName="mobileno" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.mobileno.errors }" /></td>
+                <div *ngIf="submitted && f.mobileno.errors" class="invalid-feedback">
+                    <div *ngIf="f.mobileno.errors.required">Mobile no is required</div>
+                    <div *ngIf="f.mobileno.errors.pattern">Mobile no Must be Valid</div>
+                </div>
+            </tr>
+                    <tr>
+        
+                     <td>   <label for="email" class="label">Email</label></td>
+               <td> <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" /></td>
+                <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                    <div *ngIf="f.email.errors.required">Email is required</div>
+                    <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                
+                </div>
+            </tr>
+            </table><br><br>
+                <button class="btn btn-primary mr-1"type="submit" (click)="onSubmit()">Register</button>
+            
+             <button class="btn btn-primary mr-1" type="reset" (click)="onReset()">Reset</button>
+                
+ </form>
+    </div>
+</div>
+<div class="footer">
+    <p>Copyrights@2020</p>
+  </div>
+
+</div>
+
+
+<router-outlet></router-outlet>
+
+
+

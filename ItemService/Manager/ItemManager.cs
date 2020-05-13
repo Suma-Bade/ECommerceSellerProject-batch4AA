@@ -17,22 +17,25 @@ namespace ItemService.Manager
 
         }
 
-        public async Task<bool> AddItemsManager(ItemDetails obj)
+        public async Task<bool> AddItems(ItemDetails items)
         {
-            bool item = await _itemRepository.AddItems(obj);
+            bool item = await _itemRepository.AddItems(items);
             return item;
         }
 
-        public void DeleteItemsManager(int id)
+        public void DeleteItems(int itemid)
         {
-            _itemRepository.DeleteItems(id);
+            _itemRepository.DeleteItems(itemid);
 
         }
-
-        
-        public List<Items> ViewItemsManager(int sellerid)
+        public async Task<bool> UpdateItems(ItemDetails items)
         {
-            List<Items> items = _itemRepository.ViewItems(sellerid);
+            bool item = await _itemRepository.UpdateItems(items);
+            return item;
+        }
+        public List<ItemDetails> ViewItems(int sellerid)
+        {
+            List<ItemDetails> items = _itemRepository.ViewItems(sellerid);
             return items;
         }
 

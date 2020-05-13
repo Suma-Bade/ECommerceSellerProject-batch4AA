@@ -9,7 +9,7 @@ namespace AccountService.Manager
 {
     public interface IAccountManager
     {
-        Task<SellerLogin> ValidateSeller(string uname, string pwd);
+        Task<SellerLogin> ValidateSeller(string username, string password);
         Task<bool> SellerRegister(SellerRegister seller);
         Task SellerRegister(Seller seller);
     }

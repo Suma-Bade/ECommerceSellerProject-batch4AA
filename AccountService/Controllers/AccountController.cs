@@ -47,12 +47,12 @@ namespace AccountService.Controllers
 
         }
         [HttpGet]
-        [Route("SellerLogin/{uname}/{pwd}")]
-        public async Task<IActionResult> SellerLogin(string uname, string pwd)
+        [Route("SellerLogin/{username}/{password}")]
+        public async Task<IActionResult> SellerLogin(string username, string password)
         {
 
            _logger.LogInformation("Login");
-            var seller = await _iAccountManager.ValidateSeller(uname, pwd);
+            var seller = await _iAccountManager.ValidateSeller(username, password);
 
             if (seller != null)
             {

@@ -7,7 +7,7 @@ namespace AccountService.Models
 {
     public class SellerRegister
     {
-        public int Sid { get; set; }
+        public int Sellerid { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public string Companyname { get; set; }

@@ -1,7 +1,5 @@
 export class Items {
     public id:number;
-    public categoryname:string;
-    public subcategoryname:string;
     public price:string;
     public itemname:string;
     public description:string;

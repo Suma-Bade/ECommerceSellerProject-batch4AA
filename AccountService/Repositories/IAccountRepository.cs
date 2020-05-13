@@ -9,7 +9,7 @@ namespace AccountService.Repositories
 {
     public interface IAccountRepository
     {
-        Task<SellerLogin> ValidateSeller(string uname, string pwd);
+        Task<SellerLogin> ValidateSeller(string username, string password);
         Task<bool> SellerRegister(SellerRegister seller);
     }
 }

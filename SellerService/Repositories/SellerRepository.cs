@@ -16,7 +16,7 @@ namespace SellerService.Repositories
         }
         public async Task<bool> EditSellerProfile(SellerDetails seller)
         {
-            Seller seller1 = _context.Seller.Find(seller.Sid);
+            Seller seller1 = _context.Seller.Find(seller.Sellerid);
             if (seller1 != null)
             {
                 seller1.Username = seller.Username;
@@ -45,14 +45,15 @@ namespace SellerService.Repositories
             }
         }
 
-        public async Task<SellerDetails> ViewSellerProfile(int sid)
+        public async Task<SellerDetails> ViewSellerProfile(int sellerid)
         {
-            Seller seller = await _context.Seller.FindAsync(sid);
+            Seller seller = await _context.Seller.FindAsync(sellerid);
             if (seller == null)
                 return null;
             else
             {
                 SellerDetails seller1 = new SellerDetails();
+                seller1.Sellerid = seller.Sellerid;
                 seller1.Username = seller.Username;
                 seller1.Password = seller.Password;
                 seller1.Gst = seller.Gst;

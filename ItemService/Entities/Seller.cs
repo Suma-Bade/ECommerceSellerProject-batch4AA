@@ -5,7 +5,12 @@ namespace ItemService.Entities
 {
     public partial class Seller
     {
-        public int Sid { get; set; }
+        public Seller()
+        {
+            Items = new HashSet<Items>();
+        }
+
+        public int Sellerid { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public string Companyname { get; set; }
@@ -15,5 +20,7 @@ namespace ItemService.Entities
         public string Website { get; set; }
         public string Email { get; set; }
         public string Mobileno { get; set; }
+
+        public virtual ICollection<Items> Items { get; set; }
     }
 }

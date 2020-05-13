@@ -37,7 +37,7 @@ namespace AccountService.Repositories
             Seller seller1 = new Seller();
             if (seller != null)
             {
-                seller1.Sid = seller.Sid;
+                seller1.Sellerid = seller.Sellerid;
                 seller1.Username = seller.Username;
                 seller1.Password = seller.Password;
                 seller1.Gst = seller.Gst;
@@ -64,9 +64,9 @@ namespace AccountService.Repositories
         /// <param name="uname"></param>
         /// <param name="pwd"></param>
         /// <returns></returns>
-        public async Task<SellerLogin> ValidateSeller(string uname, string pwd)
+        public async Task<SellerLogin> ValidateSeller(string username, string password)
         {
-            var user = await _context.Seller.SingleOrDefaultAsync(e => e.Username == uname && e.Password == pwd);
+            var user = await _context.Seller.SingleOrDefaultAsync(e => e.Username == username && e.Password == password);
             if (user != null)
             {
                 return new SellerLogin

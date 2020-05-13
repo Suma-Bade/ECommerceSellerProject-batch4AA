@@ -10,7 +10,7 @@ namespace SellerService.Manager
     public interface ISellerManager
     {
         public Task<bool> EditSellerProfile(SellerDetails seller);
-        public Task<SellerDetails> ViewSellerProfile(int sid);
+        public Task<SellerDetails> ViewSellerProfile(int sellerid);
 
     }
 }

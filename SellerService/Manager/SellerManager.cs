@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SellerService.Manager
 {
-    public class SellerManager:ISellerManager
+    public class SellerManager : ISellerManager
     {
         private readonly ISellerRepository _isellerRepository;
         public SellerManager(ISellerRepository isellerRepository)
@@ -28,29 +28,19 @@ namespace SellerService.Manager
             }
         }
 
-        public async Task<SellerDetails> ViewSellerProfile(int sid)
+        public async Task<SellerDetails> ViewSellerProfile(int sellerid)
         {
-            SellerDetails seller = await _isellerRepository.ViewSellerProfile(sid);
+            SellerDetails seller = await _isellerRepository.ViewSellerProfile(sellerid);
             if (seller == null)
             {
                 return null;
             }
             else
             {
-                SellerDetails seller1 = new SellerDetails();
-                seller1.Username = seller.Username;
-                seller1.Password = seller.Password;
-                seller1.Gst = seller.Gst;
-                seller1.Companyname = seller.Companyname;
-                seller1.Aboutcmpy = seller.Aboutcmpy;
-                seller1.Address = seller.Address;
-                seller1.Website = seller.Website;
-                seller1.Email = seller.Email;
-                seller1.Mobileno = seller.Mobileno;
-                return seller1;
+                return seller;
             }
         }
     }
 }
-    
+
 

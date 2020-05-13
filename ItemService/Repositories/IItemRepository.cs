@@ -10,9 +10,12 @@ namespace ItemService.Repositories
     public interface IItemRepository
     {
         public Task<bool> AddItems(ItemDetails items);
-        public void DeleteItems(int id);
-       public List<Items> ViewItems(int sid);
-        
+        public void DeleteItems(int itemid);
+        public Task<bool> UpdateItems(ItemDetails items);
+     
+        public List<ItemDetails> ViewItems(int sellerid);
+
+
 
     }
 }

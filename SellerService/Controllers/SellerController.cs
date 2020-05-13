@@ -29,11 +29,11 @@ namespace SellerService.Controllers
 
         }
         [HttpGet]
-        [Route("Profile/{sid}")]
+        [Route("Profile/{sellerid}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<IActionResult> ViewSellerProfile(int sid)
+        public async Task<IActionResult> ViewSellerProfile(int sellerid)
         {
-            SellerDetails seller = await _iSellerManager.ViewSellerProfile(sid);
+            SellerDetails seller = await _iSellerManager.ViewSellerProfile(sellerid);
             if (seller == null)
                 return Ok("Invalid User");
             else

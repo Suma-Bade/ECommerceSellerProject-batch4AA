@@ -23,7 +23,7 @@ namespace ItemService.Controllers
         }
         [HttpPost]
         [Route("AddItem")]
-        public async Task<IActionResult> Add(ItemDetails item)
+        public async Task<IActionResult> AddItems(ItemDetails item)
         {
             _logger.LogInformation("AddItem");
             if (item is null)
@@ -34,27 +34,44 @@ namespace ItemService.Controllers
             {
                 return BadRequest();
             }
-            await _manager.AddItemsManager(item);
+            await _manager.AddItems(item);
+            return Ok();
+
+        }
+        [HttpPut]
+        [Route("UpdateItem")]
+        public async Task<IActionResult> UpdateItems(ItemDetails item)
+        {
+            _logger.LogInformation("UpdateItem");
+            if (item is null)
+            {
+                return BadRequest("Item is null");
+            }
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            await _manager.UpdateItems(item);
             return Ok();
 
         }
         [HttpDelete]
-        [Route("DeleteItem/{id}")]
+        [Route("DeleteItem/{itemid}")]
      
-        public IActionResult Delete(int id)
+        public IActionResult DeleteItems(int itemid)
         {
-            _manager.DeleteItemsManager(id);
+            _manager.DeleteItems(itemid);
             return Ok();
             throw new Exception("Exception while deleting the item from the storage.");
 
 
         }
         [HttpGet]
-        [Route("ViewItems/{sid}")]
+        [Route("ViewItems/{sellerid}")]
        
-        public IActionResult ViewItems(int sid)
+        public IActionResult ViewItems(int sellerid)
         {
-            return Ok(_manager.ViewItemsManager(sid));
+            return Ok(_manager.ViewItems(sellerid));
             throw new Exception("Exception while retrieving the items from the storage.");
 
         }

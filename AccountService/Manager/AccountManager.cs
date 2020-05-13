@@ -31,10 +31,10 @@ namespace AccountService.Manager
             throw new NotImplementedException();
         }
 
-        public async Task<SellerLogin> ValidateSeller(string uname, string pwd)
+        public async Task<SellerLogin> ValidateSeller(string username, string password)
         {
-            var seller1 = await _iAccountRepository.ValidateSeller(uname, pwd);
-            if (seller1.Username == uname && seller1.Password == pwd)
+            var seller1 = await _iAccountRepository.ValidateSeller(username, password);
+            if (seller1.Username == username && seller1.Password == password)
             {
                 return seller1;
             }

@@ -13,9 +13,11 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SellerService.Entities;
 using SellerService.Extensions;
-using SellerService.Repositories;
+//using SellerService.Repositories;
 using Microsoft.AspNetCore.Mvc.Filters;
 using SellerService.Manager;
+using SellerService.Repositories;
+//using SellerService.Manager;
 
 namespace SellerService
 {

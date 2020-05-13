@@ -9,7 +9,7 @@ namespace SellerService.Repositories
 {
     public interface ISellerRepository
     {
-        public Task<SellerDetails> ViewSellerProfile(int sid);
+        public Task<SellerDetails> ViewSellerProfile(int sellerid);
         public Task<bool> EditSellerProfile(SellerDetails seller);
     }
 }

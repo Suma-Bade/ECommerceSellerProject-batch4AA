@@ -19,8 +19,8 @@ namespace ItemService.Repositories
             Items items1 = new Items();
             if (items != null)
             {
-                items1.Id = items.Id;
-                items1.Sid = items.Sid;
+                items1.Itemid= items.Itemid;
+                items1.Sellerid = items.Sellerid;
                 items1.Itemname = items.Itemname;
                 items1.Price = items.Price;
                 items1.Remarks = items.Remarks;
@@ -36,14 +36,14 @@ namespace ItemService.Repositories
                 return false;
         }
 
-        public void DeleteItems(int id)
+        public void DeleteItems(int itemid)
         {
-            Items items = _context.Items.Find(id);
+            Items items = _context.Items.Find(itemid);
             Items items1 = new Items();
             if (items != null)
             {
-                items1.Id = items.Id;
-                items1.Sid = items.Sid;
+                items1.Itemid = items.Itemid;
+                items1.Sellerid = items.Sellerid;
                 items1.Itemname = items.Itemname;
                 items1.Price = items.Price;
                 items1.Remarks = items.Remarks;
@@ -56,12 +56,51 @@ namespace ItemService.Repositories
 
 
         }
-
-       
-        public List<Items> ViewItems(int sid)
+        public async Task<bool> UpdateItems(ItemDetails items)
         {
-            return _context.Items.Where(e => e.Sid == sid).ToList();
+            Items items1 = _context.Items.Find(items.Itemid);
+            if (items != null)
+            {
+                items1.Itemid = items.Itemid;
+                items1.Sellerid = items.Sellerid;
+                items1.Itemname = items.Itemname;
+                items1.Price = items.Price;
+                items1.Remarks = items.Remarks;
+                items1.Stockno = items.Stockno;
+                items1.Description = items.Description;
+
+            };
+            _context.Update(items1);
+            var sellerId = await _context.SaveChangesAsync();
+            if (sellerId > 0)
+                return true;
+            else
+                return false;
         }
+         public List<ItemDetails> ViewItems(int sellerid)
+        {
+            // return _context.Items.Where(e => e.Sellerid == sellerid).ToList();
+            List<ItemDetails> items1 = new List<ItemDetails>();
+
+            List<Items> items = _context.Items.Where(e => e.Sellerid == sellerid).ToList();
+            foreach (Items item in items)
+            {
+                ItemDetails itemDetails= new ItemDetails();
+                itemDetails.Itemid = item.Itemid;
+                itemDetails.Itemname = item.Itemname;
+                itemDetails.Price = item.Price;
+                itemDetails.Remarks = item.Remarks;
+                itemDetails.Stockno = item.Stockno;
+                itemDetails.Description = item.Description;
+                itemDetails.Sellerid = item.Sellerid;
+                items1.Add(itemDetails);
+
+            }
+            return items1;
+        }
+
+
+
 
     }
 }

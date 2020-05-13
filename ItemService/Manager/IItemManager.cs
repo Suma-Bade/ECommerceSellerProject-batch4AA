@@ -9,9 +9,11 @@ namespace ItemService.Manager
 {
     public interface IItemManager
     {
-        List<Items> ViewItemsManager(int sid);
-        Task<bool> AddItemsManager(ItemDetails obj);
-        public void DeleteItemsManager(int id);
-       
+        Task<bool> AddItems(ItemDetails items);
+        public void DeleteItems(int itemid);
+        Task<bool> UpdateItems(ItemDetails items);
+        List<ItemDetails> ViewItems(int sellerid);
+
+
     }
 }
