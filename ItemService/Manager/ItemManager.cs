@@ -23,9 +23,10 @@ namespace ItemService.Manager
             return item;
         }
 
-        public void DeleteItems(int itemid)
+        public async Task<bool> DeleteItems(int itemid)
         {
-            _itemRepository.DeleteItems(itemid);
+           bool result= await _itemRepository.DeleteItems(itemid);
+           return result;
 
         }
         public async Task<bool> UpdateItems(ItemDetails items)

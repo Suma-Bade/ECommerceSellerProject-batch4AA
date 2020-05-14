@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj": {}
+    "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj": {}
   },
   "projects": {
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj": {
+    "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj",
+        "projectUniqueName": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj",
         "projectName": "ItemService",
-        "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj",
-        "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
-        "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\obj\\",
+        "projectPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj",
+        "packagesPath": "C:\\Users\\sumanthi katragadda\\.nuget\\packages\\",
+        "outputPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\sumanthi katragadda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -67,10 +68,6 @@
               "target": "Package",
               "version": "[4.9.2, )"
             },
-            "Ocelot": {
-              "target": "Package",
-              "version": "[15.0.6, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.0.0-rc3, )"
@@ -94,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

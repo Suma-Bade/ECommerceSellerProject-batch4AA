@@ -36,7 +36,7 @@ namespace ItemService.Repositories
                 return false;
         }
 
-        public void DeleteItems(int itemid)
+        public async Task<bool> DeleteItems(int itemid)
         {
             Items items = _context.Items.Find(itemid);
             Items items1 = new Items();
@@ -52,7 +52,11 @@ namespace ItemService.Repositories
 
             }
             _context.Remove(items1);
-            _context.SaveChanges();
+            var item = await _context.SaveChangesAsync();
+            if (item > 0)
+                return true;
+            else
+                return false;
 
 
         }

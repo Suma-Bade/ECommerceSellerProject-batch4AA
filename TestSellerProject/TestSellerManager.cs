@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestSellerProject
+namespace TestSellerService
 {
     [TestFixture]
     public class TestSellerManager

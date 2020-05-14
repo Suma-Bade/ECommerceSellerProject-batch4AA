@@ -6,7 +6,7 @@ using NUnit.Framework;
 using System;
 using System.Threading.Tasks;
 
-namespace TestAccountProject
+namespace TestAccountService
 {
     [TestFixture]
     public class TestAccountRepository

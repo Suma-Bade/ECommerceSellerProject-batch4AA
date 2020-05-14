@@ -9300,24 +9300,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\win8.1\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\sumanthi katragadda\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\TestSellerProject.csproj",
-      "projectName": "TestSellerProject",
-      "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\TestSellerProject.csproj",
-      "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
-      "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\obj\\",
+      "projectUniqueName": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\TestSellerService.csproj",
+      "projectName": "TestSellerService",
+      "projectPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\TestSellerService.csproj",
+      "packagesPath": "C:\\Users\\sumanthi katragadda\\.nuget\\packages\\",
+      "outputPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\sumanthi katragadda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9329,8 +9330,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {
-              "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj"
+            "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {
+              "projectPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj"
             }
           }
         }
@@ -9379,7 +9380,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

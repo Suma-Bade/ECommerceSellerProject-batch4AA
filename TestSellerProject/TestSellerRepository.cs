@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using SellerService.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace TestSellerProject
+namespace TestSellerService
 {
     public class TestSellerRepository
     {

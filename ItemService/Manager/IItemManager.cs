@@ -10,7 +10,7 @@ namespace ItemService.Manager
     public interface IItemManager
     {
         Task<bool> AddItems(ItemDetails items);
-        public void DeleteItems(int itemid);
+        public Task<bool> DeleteItems(int itemid);
         Task<bool> UpdateItems(ItemDetails items);
         List<ItemDetails> ViewItems(int sellerid);
 

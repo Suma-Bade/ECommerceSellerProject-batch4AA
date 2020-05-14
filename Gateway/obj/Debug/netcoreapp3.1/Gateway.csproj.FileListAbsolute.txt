@@ -62,3 +62,33 @@ F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netc
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.pdb
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.genruntimeconfig.cache
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\appsettings.Development.json
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\appsettings.json
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Ocelot.json
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.exe
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.deps.json
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.runtimeconfig.json
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.runtimeconfig.dev.json
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.pdb
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\FluentValidation.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Ocelot.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.csprojAssemblyReference.cache
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\staticwebassets\Gateway.StaticWebAssets.Manifest.cache
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\staticwebassets\Gateway.StaticWebAssets.xml
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.MvcApplicationPartsAssemblyInfo.cs
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.MvcApplicationPartsAssemblyInfo.cache
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.AssemblyInfoInputs.cache
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.AssemblyInfo.cs
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.RazorTargetAssemblyInfo.cache
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.csproj.CopyComplete
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.dll
+S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.pdb

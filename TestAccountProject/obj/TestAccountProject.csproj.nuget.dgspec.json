@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj": {}
+    "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj": {}
   },
   "projects": {
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {
+    "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj",
+        "projectUniqueName": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj",
         "projectName": "AccountService",
-        "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj",
-        "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
-        "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\obj\\",
+        "projectPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj",
+        "packagesPath": "C:\\Users\\sumanthi katragadda\\.nuget\\packages\\",
+        "outputPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\sumanthi katragadda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -102,25 +103,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj": {
+    "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj",
+        "projectUniqueName": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj",
         "projectName": "TestAccountProject",
-        "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj",
-        "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
-        "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\obj\\",
+        "projectPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\TestAccountProject.csproj",
+        "packagesPath": "C:\\Users\\sumanthi katragadda\\.nuget\\packages\\",
+        "outputPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestAccountProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\sumanthi katragadda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -132,8 +134,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {
-                "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj"
+              "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {
+                "projectPath": "S:\\visual studio\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj"
               }
             }
           }
@@ -182,7 +184,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
