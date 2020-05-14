@@ -144,9 +144,7 @@ F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\ItemService.runtimeconfig.dev.json
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\ItemService.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\ItemService.pdb
-F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\FluentValidation.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
-F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.MiddlewareAnalysis.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -171,7 +169,6 @@ F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
@@ -192,7 +189,6 @@ F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Ocelot.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\ItemService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

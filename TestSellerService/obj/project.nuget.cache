@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NW2c2O1uNQlrN9Oe17Mztmk6swyXzO6AHtew/4zhrT7xEbfi0ZJsuStFvTRM9a3HLM1O2UhBb6J1waiuU3DySA==",
+  "dgSpecHash": "6uNOIRHxaKT+kgbR78tAdUI0rN5eacaZAXb8IhJWRIUHdqlrau3nLgtMj4do9K88TFookGwV7AO602xOj1JC4w==",
   "success": true,
-  "projectFilePath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerProject\\TestSellerProject.csproj",
+  "projectFilePath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\win8.1\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\win8.1\\.nuget\\packages\\fluentvalidation\\8.6.1\\fluentvalidation.8.6.1.nupkg.sha512",

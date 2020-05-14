@@ -157,7 +157,6 @@ F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Deb
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\AccountService.runtimeconfig.dev.json
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\AccountService.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\AccountService.pdb
-F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\Castle.Core.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\FluentValidation.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
@@ -204,7 +203,6 @@ F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Deb
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\Moq.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 F:\ECommerceSellerProject\ECommerceSellerProject-batch4AA\AccountService\bin\Debug\netcoreapp3.1\NLog.dll

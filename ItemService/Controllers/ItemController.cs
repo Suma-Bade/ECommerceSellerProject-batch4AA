@@ -34,9 +34,11 @@ namespace ItemService.Controllers
             {
                 return BadRequest();
             }
-            await _manager.AddItems(item);
-            return Ok();
-
+            else
+            {
+                await _manager.AddItems(item);
+                return Ok();
+            }
         }
         [HttpPut]
         [Route("UpdateItem")]
@@ -51,20 +53,21 @@ namespace ItemService.Controllers
             {
                 return BadRequest();
             }
-            await _manager.UpdateItems(item);
-            return Ok();
+            else
+            {
+                await _manager.UpdateItems(item);
+                return Ok();
+            }
+            
 
         }
         [HttpDelete]
         [Route("DeleteItem/{itemid}")]
      
-        public IActionResult DeleteItems(int itemid)
+        public async Task<IActionResult> DeleteItems(int itemid)
         {
-            _manager.DeleteItems(itemid);
-            return Ok();
-            throw new Exception("Exception while deleting the item from the storage.");
-
-
+            
+               return Ok( await _manager.DeleteItems(itemid));
         }
         [HttpGet]
         [Route("ViewItems/{sellerid}")]
