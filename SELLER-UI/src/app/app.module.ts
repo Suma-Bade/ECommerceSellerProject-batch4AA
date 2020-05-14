@@ -11,6 +11,7 @@ import { ViewItemsComponent } from './Seller/view-items/view-items.component';
 import { SellerLandingPageComponent } from './Seller/seller-landing-page/seller-landing-page.component';
 import { ViewProfileComponent } from './Seller/view-profile/view-profile.component';
 import {HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {HttpClientModule} from '@angular/common/http';
     AddItemsComponent,
     ViewItemsComponent,
     SellerLandingPageComponent,
-    ViewProfileComponent
+    ViewProfileComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

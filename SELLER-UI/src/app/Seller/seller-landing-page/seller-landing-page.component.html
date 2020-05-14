@@ -1,1 +1,28 @@
-<p>seller-landing-page works!</p>
+<div class="bg">
+    <div class="topnav">
+        <a href="#">SELLER DASHBOARD</a>
+        <a [routerLink]="'ADD-ITEMS'">Add Items</a>
+        <a [routerLink]="'VIEW-ITEMS'">View Items</a>
+        
+        <a [routerLink]="'VIEW-PROFILE'">View Profile</a>
+       
+        <div class="search-container">
+          <form>
+           
+            <button type="button" class="btn btn-default btn-sm" (click)="Logout()">
+              <span class="glyphicon glyphicon-log-out"></span> Log out
+            </button>
+          </form>
+      </div>
+      
+      </div> 
+     
+      <router-outlet></router-outlet>
+    </div>
+      
+      
+            
+        
+      
+    
+    

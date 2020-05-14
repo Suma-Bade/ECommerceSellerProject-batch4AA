@@ -25,22 +25,52 @@
     color:#6a6f8c;
     background:#c8c8c8;
     font:600 16px/18px 'Open Sans',sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
   }
   
-  .register-wrap{
+    
+    .bg{
+      background-image: url("src\assets\images\back.jpg");
+      background-color: #cccccc;
+      height: 740px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+  
+  *,:after,:before{box-sizing:border-box}
+  .clearfix:after,.clearfix:before{content:'';display:table}
+  .clearfix:after{clear:both;display:block}
+  a{color:inherit;text-decoration:none}
+  
+  .login-wrap{
     width:100%;
     margin:auto;
-    max-width:500px;
-    min-height:650px;
+    max-width:450px;
+    min-height:490px;
     position:relative;
-    background-image: url(src\assets\images\image3.jpg);
-background-repeat: no-repeat;
-background-size:1100px;
+    margin-top: 80px;
+    
+    
+    
+  background-image: url(src\assets\images\image3.jpg);
+  background-repeat: no-repeat;
+  background-size:1100px;
+  
+    /* background:rgba(140, 144, 153, 0.9); */
     
     box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
-  } 
-  
-  
+  }
   .form-row.group .check{
     display:none;
   }
@@ -60,7 +90,7 @@ background-size:1100px;
     perspective:1000px;
     transform-style:preserve-3d;
     text-align: left;
-    margin-left:29px;
+    margin-left:20px;
   }
   .form-row.group{
     margin-bottom:10px;
@@ -72,12 +102,15 @@ background-size:1100px;
     color:#fff;
     display:block;
     text-align:center;
+   
   }
   .form-row.group .input,
   .form-row.group .button{
     border:none;
     padding:12px 20px;
     border-radius:10px;
+   
+    
     background:rgba(255,255,255,.1);
   }
   .form-row.group input[data-type="password"]{
@@ -87,6 +120,7 @@ background-size:1100px;
   .form-row .group .label{
     color:#aaa;
     font-size:10px;
+   
   }
   .form-row.group .button{
     background:#1161ee;
@@ -97,7 +131,7 @@ background-size:1100px;
     border-radius:2px;
     position:relative;
     display:inline-block;
-    background:rgba(12, 11, 11, 0.1);
+    background:rgba(55, 7, 228, 0.1);
   }
   .form-row.group label .icon:before,
   .form-row.group label .icon:after{
@@ -105,7 +139,8 @@ background-size:1100px;
     width:20px;
     height:10px;
     background:#fff;
-    position:absolute;
+    position:absolute;  
+     
     transition:all .2s ease-in-out 0s;
   }
   .form-row.group label .icon:before{
@@ -139,34 +174,10 @@ background-size:1100px;
   
   .foot-lnk{
     text-align:center;
-  } */
+  } 
+  
   body {
     font-family: "Lato", sans-serif;
-
-    margin:0;
-    color:#6a6f8c;
-    background:#c8c8c8;
-    font:600 16px/18px 'Open Sans',sans-serif;
-      font-family: Arial, Helvetica, sans-serif;
   }
-    
-    .bg {
-      background-image: url("src\assets\images\back.jpg");
-      background-color: #cccccc;
-      height: 700px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-    }
-    
-    .hero-text {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-    }
   
   

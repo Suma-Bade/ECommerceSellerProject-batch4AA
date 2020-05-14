@@ -6,6 +6,7 @@ import { ViewItemsComponent } from './Seller/view-items/view-items.component';
 import { ViewProfileComponent } from './Seller/view-profile/view-profile.component';
 import { SellerRegisterComponent } from './Account/seller-register/seller-register.component';
 import { LoginComponent } from './Account/login/login.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,9 @@ const routes: Routes = [
     {path:'VIEW-PROFILE',component:ViewProfileComponent}]},
     {path:'REGISTER-SELLER',component:SellerRegisterComponent},
     {path:'LOGIN',component:LoginComponent},
+    {path:'HOME',component:HomeComponent},
+  {path:'',redirectTo:'HOME',pathMatch:'full'}
+
 ];
 
 @NgModule({

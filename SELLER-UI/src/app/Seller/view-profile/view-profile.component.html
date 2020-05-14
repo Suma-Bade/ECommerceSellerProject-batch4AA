@@ -1,1 +1,117 @@
-<p>view-profile works!</p>
+<div class="register-wrap">
+    <h3 align="center">Seller Profile</h3>
+    <div class="form-row">
+        <form [formGroup]="form">
+        
+             <table>       
+<tr><td><label for="sid" class="label">Seller ID</label></td>
+                 <td>   <input type="number" formControlName="sid" class="form-control"/></td>
+                   
+                </tr>  
+                <tr>
+                    <td>    <label for="username" class="label">Username</label></td>
+                  <td>  <input type="text" formControlName="username" class="form-control"/></td>
+                   
+                </tr>
+                <tr>
+                    
+                 <td>       <label for="password" class="label">Password</label></td>
+             <td>       <input type="text" formControlName="password" class="form-control"data-type="password"/></td>
+                   
+                </tr>
+                <tr>
+                
+                     <td>   <label for="companyname" class="label">Company Name</label></td>
+                  <td>  <input type="text" formControlName="companyname" class="form-control"/></td>
+                   
+                </tr>
+                <tr>
+
+                     <td>   <label for="gst" class="label">GST</label></td>
+              <td>  <input type="number" formControlName="gst" class="form-control"/></td>
+                
+            </tr>
+            <tr>
+                    
+                    <td>    <label for="aboutcmpy" class="label">About Cmpy</label></td>
+               <td><textarea  rows="3" cols="25" formControlName="aboutcmpy" class="form-control"></textarea></td> 
+               
+            </tr>
+            <tr>
+                    
+                    <td>    <label for="address" class="label">Address</label></td>
+             <td>  <textarea  rows="3" cols="25" formControlName="address" class="form-control"></textarea></td> 
+                
+            </tr>
+            <tr>
+                    
+                      <td>  <label for="website" class="label">Website</label></td>
+              <td>  <input type="text" formControlName="website" class="form-control"/></td>
+                        </tr>
+            <tr>
+                
+                     <td>   <label for="mobileno" class="label">Mobile No</label></td>
+              <td>  <input type="text" formControlName="mobileno" class="form-control"/></td>
+                
+            </tr>
+                    <tr>
+        
+                     <td>   <label for="email" class="label">Email</label></td>
+               <td> <input type="text" formControlName="email" class="form-control"/></td>
+                         </tr>
+            </table><br>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">EditProfile</button>
+                
+ </form>
+    </div>
+</div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup]="form">  
+                <div class="form-group">
+                <label>UserName</label>
+                <input type="text" formControlName="username" class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input type="text" formControlName="password"class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label>Mobile</label>
+                <input type="text" formControlName="mobileno" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label>EmailID</label>
+                <input type="text" formControlName="email"class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label>CompanyName</label>
+                <input type="text" formControlName="companyname" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <input type="textarea" formControlName="address" class="form-control"/>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" (click)="Edit()">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+

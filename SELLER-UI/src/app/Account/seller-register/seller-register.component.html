@@ -1,12 +1,8 @@
 <div class="bg"><div class="topnav">
-    <a href="#">EMART</a>
+    <a href="#">ECOMMERCE</a>
    <a routerLink="/HOME">HOME</a>
 </div>
-<div class="sidenav">
-    <a href="/HOME"><i class="fa fa-home"></i> Home</a>
-    
-    <a routerLink="/CONTACT"><i class="fa fa-envelope"></i> Contact</a>
- </div>
+
   <div class="hero-image">
     <div class="hero-text">
 
@@ -17,12 +13,12 @@
         <form [formGroup]="sellerForm">
         
              <table>       
-<!-- <tr><td><label for="sid" class="label">Seller ID</label></td>
-                 <td>   <input type="text" formControlName="sid" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.sid.errors }" /></td>
-                    <div *ngIf="submitted && f.sid.errors" class="invalid-feedback">
-                        <div *ngIf="f.sid.errors.required">Seller Id is required</div>
+ <tr><td><label for="sellerid" class="label">Seller ID</label></td>
+                 <td>   <input type="text" formControlName="sellerid" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.sellerid.errors }" /></td>
+                    <div *ngIf="submitted && f.sellerid.errors" class="invalid-feedback">
+                        <div *ngIf="f.sellerid.errors.required">Seller Id is required</div>
                     </div>
-                </tr>   -->
+                </tr>  
                 <tr>
                     <td>    <label for="user" class="label">Username</label></td>
                   <td>  <input type="text" formControlName="username" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.username.errors }" /></td>
@@ -107,13 +103,9 @@
  </form>
     </div>
 </div>
-<div class="footer">
-    <p>Copyrights@2020</p>
-  </div>
+
 
 </div>
-
-
 <router-outlet></router-outlet>
 
 

@@ -1,0 +1,31 @@
+<div class="bg">
+    <div class="topnav">
+    <a href="#">ECOMMERCE SELLER</a>
+   <a routerLink="/HOME">HOME</a>
+ </div>
+ 
+ <div class="login-wrap">
+	<h3 align="center">Login</h3>
+		<div class="form-row">
+        <form [formGroup]="userForm" (ngSubmit)="onSubmitLogin()">
+            <label for="username" class="label">Username</label>
+            <input type="text" formControlName="username" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.username.errors }" />
+            <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                <div *ngIf="f.username.errors.required">User Name is required</div>
+            </div>
+        <label for="password" class="label">Password</label>
+            <input type="password" formControlName="password" class="form-control" data-type="password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+            <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                <div *ngIf="f.password.errors.required">Password is required</div>
+            </div><br>
+           
+     <button class="btn btn-primary mr-1"type="submit" (click)=" onSubmitLogin()">Login</button>
+            <button class="btn btn-primary mr-1" type="reset" (click)="onReset()">Reset</button>
+        <div class="foot-lnk">
+            <a href="REGISTER-SELLER">Register seller</a>
+     </div>
+        </form>
+        </div>
+        
+</div>
+<router-outlet></router-outlet>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-seller-landing-page',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SellerLandingPageComponent implements OnInit {
 
-  constructor() { }
+  sellerid:number;
 
-  ngOnInit(): void {
+  constructor(private route:Router) {
+  
+    }
+
+  ngOnInit() {
+  }
+  Logout(){
+    this.route.navigateByUrl('HOME');
   }
 
 }
+

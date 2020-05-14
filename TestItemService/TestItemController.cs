@@ -30,7 +30,6 @@ namespace TestItemService
         /// <returns></returns>
         [Test]
         [TestCase(1, "788", "Mobile", "Reliable", 98876, "Good", 1)]
-        [Description("Test for SellerRegistration Success")]
         public async Task TestAddItems_valid_Returns_NotNull(int itemid, string price, string itemname, string description, int stockno, string remarks, int sellerid)
         {
             try
@@ -53,7 +52,7 @@ namespace TestItemService
         /// <returns></returns>
         [Test]
         [TestCase(1, "788", "Mobile", "Reliable", 98876, "Good", 1)]
-        [Description("Test for SellerRegistration Success")]
+       
         public async Task TestUpdateItems_valid_Returns_True(int itemid, string price, string itemname, string description, int stockno, string remarks, int sellerid)
         {
             try
@@ -77,12 +76,12 @@ namespace TestItemService
         [Test]
         [TestCase(1)]
         [Description("Test for SellerRegistration Success")]
-        public async Task TestDeleteItem_valid_Returns_True(int itemid)
+        public void TestDeleteItem_valid_Returns_True(int itemid)
         {
             try
             {
                 mockItemManager.Setup(x => x.DeleteItems(itemid)).ReturnsAsync(true);
-                var result = await itemController.DeleteItems(itemid);
+                var result = itemController.DeleteItems(itemid);
                 Assert.NotNull(result);
 
             }
@@ -98,12 +97,12 @@ namespace TestItemService
         [Test]
         [TestCase(1)]
         [Description("Test for SellerRegistration Success")]
-        public async Task TestDeleteItem_valid_Returns_False(int itemid)
+        public void TestDeleteItem_valid_Returns_False(int itemid)
         {
             try
             {
                 mockItemManager.Setup(d => d.DeleteItems(itemid)).ReturnsAsync(false);
-                var result = await itemController.DeleteItems(itemid);
+                var result =itemController.DeleteItems(itemid);
                 Assert.NotNull(result);
             }
             catch (Exception e)

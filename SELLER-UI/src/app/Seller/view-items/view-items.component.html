@@ -1,1 +1,78 @@
-<p>view-items works!</p>
+<div class="container">
+    <div class="row" >
+      <div class="col-md-3" *ngFor="let item of list">
+      <div class="card" style="width:250px">
+        <img class="img" src="assets/images/{{item.imagename}}" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">{{item.itemname}}</h4>
+          <h5 class="card-text">ID:{{item.itemid}}
+             Price:{{item.price}} </h5>
+          <button  type="button" (click)="view(item.sellerid)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Edit</button>&nbsp;
+          <button  type="button" (click)="Delete(item.itemid)" class="btn btn-danger">Del</button>
+          <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+        </div>
+      </div>
+    </div>
+      </div>
+     </div>
+     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form [formGroup]="itemForm">
+              <table>
+                <tr>
+                  <td><div class="form-group">
+                  <td><label>ItemId</label></td>            
+                       <td><input type="text" formControlName="itemid"  class="form-control" /></td>
+                </div></td>
+              </tr>
+                <tr>
+                <td><div class="form-group">
+                <td><label>ItemName</label></td>            
+                     <td><input type="text" formControlName="itemname"  class="form-control" /></td>
+              </div></td>
+            </tr>
+            <tr>
+              <td><div class="form-group">
+                <td><label>Price</label> </td>           
+                <td><input type="number" formControlName="price"  class="form-control" /></td>
+              </div></td>
+            </tr>
+            <tr>
+              <td><div class="form-group">
+                <td><label>Stock</label> </td>           
+                <td><input type="text" formControlName="stockno"  class="form-control" /></td>
+              </div></td>
+            </tr>
+            <tr>
+              <td><div class="form-group">
+                <td><label>Description</label></td>            
+                <td><input type="text" formControlName="description"  class="form-control" /></td>
+              </div></td>
+            </tr>
+            <tr>
+              <td><div class="form-group">
+                <td><label>remarks</label></td>            
+                <td><input type="text" formControlName="remarks"  class="form-control" /></td>
+              </div></td>
+            </tr>
+            </table>
+            </form>
+  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" (click)="Update()">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+  
+

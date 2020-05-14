@@ -17,7 +17,7 @@ export class SellerRegisterComponent implements OnInit {
   
     ngOnInit() {
       this.sellerForm=this.frombuilder.group({
-        //sid:['',[Validators.required,Validators.pattern("^[0-9]{4}$")]],
+        sellerid:['',[Validators.required,Validators.pattern("^[0-9]{0,}$")]],
         username:['',[Validators.required,Validators.pattern("^[A-Za-z]{0,}$")]],
         password:['',[Validators.required,Validators.pattern("^[A-Za-z]{7,}[!@#$%^&*]")]],
         companyname:['',Validators.required],
@@ -36,7 +36,7 @@ export class SellerRegisterComponent implements OnInit {
       }
         else{
           this.seller=new Seller();
-        this.seller.sid=Math.floor(Math.random()*1000);
+        this.seller.sellerid=Number(this.sellerForm.value["sellerid"]);
         this.seller.username=this.sellerForm.value["username"];
         this.seller.password=this.sellerForm.value["password"];
         this.seller.companyname=this.sellerForm.value["companyname"];
