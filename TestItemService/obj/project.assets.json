@@ -9239,23 +9239,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sumanthi katragadda\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\visual studio\\EcommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestItemService\\TestItemService.csproj",
+      "projectUniqueName": "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\TestItemService\\TestItemService.csproj",
       "projectName": "TestItemService",
-      "projectPath": "S:\\visual studio\\EcommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestItemService\\TestItemService.csproj",
-      "packagesPath": "C:\\Users\\sumanthi katragadda\\.nuget\\packages\\",
-      "outputPath": "S:\\visual studio\\EcommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestItemService\\obj\\",
+      "projectPath": "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\TestItemService\\TestItemService.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\TestItemService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\sumanthi katragadda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9269,8 +9269,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "S:\\visual studio\\EcommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj": {
-              "projectPath": "S:\\visual studio\\EcommerceSellerProject\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj"
+            "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj": {
+              "projectPath": "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\ItemService\\ItemService.csproj"
             }
           }
         }
