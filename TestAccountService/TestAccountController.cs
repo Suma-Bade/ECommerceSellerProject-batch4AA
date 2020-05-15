@@ -2,6 +2,7 @@
 using AccountService.Manager;
 using AccountService.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
@@ -16,12 +17,14 @@ namespace TestAccountService
         private AccountController accountController;
         private Mock<IAccountManager> mockAccountManager;
         private Mock<ILogger<AccountController>> logger;
+        private Mock<IConfiguration> configuration;
         [SetUp]
         public void Setup()
         {
+            configuration = new Mock<IConfiguration>();
             mockAccountManager = new Mock<IAccountManager>();
             logger = new Mock<ILogger<AccountController>>();
-            accountController = new AccountController(mockAccountManager.Object, logger.Object);
+            accountController = new AccountController(mockAccountManager.Object, logger.Object,configuration.Object);
 
         }
         /// <summary>
@@ -37,7 +40,7 @@ namespace TestAccountService
             {
                 var sellerRegister = new SellerRegister() { Username = username, Password = password, Companyname = companyname, Gst = gst, Aboutcmpy = aboutcmpy, Address = address, Website = website, Email = email, Mobileno = mobileno };
                 mockAccountManager.Setup(d => d.SellerRegister(It.IsAny<SellerRegister>())).ReturnsAsync(new bool());
-                var result = await accountController.SellerRegister(sellerRegister)as OkResult;
+                var result = await accountController.SellerRegister(sellerRegister) as OkResult;
                 Assert.That(result, Is.Not.Null);
                 Assert.That(result.StatusCode, Is.EqualTo(200));
 
@@ -98,5 +101,5 @@ namespace TestAccountService
 
     }
 }
-    
+
 

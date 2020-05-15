@@ -4,6 +4,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using AccountService.Manager;
 using AccountService.Models;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.Extensions.Configuration;
 
 namespace AccountService.Controllers
 {
@@ -11,14 +17,17 @@ namespace AccountService.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        
+
         private readonly IAccountManager _iAccountManager;
-       private readonly ILogger<AccountController> _logger;
-        public AccountController( IAccountManager iAccountManager, ILogger<AccountController> logger)
+        private readonly ILogger<AccountController> _logger;
+        private readonly IConfiguration configuration;
+
+        public AccountController(IAccountManager iAccountManager, ILogger<AccountController> logger, IConfiguration configuration)
         {
-            
+
             _iAccountManager = iAccountManager;
             _logger = logger;
+            this.configuration = configuration;
         }
         /// <summary>
         /// Add a new Seller to a List.
@@ -58,31 +67,47 @@ namespace AccountService.Controllers
         /// <response code="400">Bad Request/Request Invalid </response>
         /// <response code="404">Requested Resouce  not found</response>
         /// <response code="500">Internal server Error</response>
-        [HttpPost]
-        [Route("UserLogin")]
-        [ProducesResponseType(200, Type = typeof(SellerLogin))]
-        [ProducesResponseType(404, Type = typeof(string))]
         [HttpGet]
         [Route("SellerLogin/{username}/{password}")]
         public async Task<IActionResult> SellerLogin(string username, string password)
         {
-            //Input is userName and userPassword 
-            //Returns  respected SellerLogin if the entered credentials are valid else it gives an invalid message
+            Token token = null;
+            _logger.LogInformation("User Login");
 
-            _logger.LogInformation("Login");
-            SellerLogin seller = await _iAccountManager.ValidateSeller(username, password);
-
-            if (seller == null)
+            SellerLogin login1 = await _iAccountManager.ValidateSeller(username, password);
+            if (login1 != null)
             {
-                //Null Checking-
-                return Ok("Invalid User");
+                token = new Token() { sellerid = login1.sellerid, username = login1.Username, token = GenerateJwtToken(username), message = "Success" };
             }
             else
             {
-                _logger.LogInformation($"Welcome {seller.Username}");
-                return Ok(seller);
+                token = new Token() { token = null, message = "UnSuccess" };
             }
+            _logger.LogInformation($"Welcome{username}");
+            return Ok(token);
         }
+        private string GenerateJwtToken(string username)
+        {
+            var claims = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, username),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.NameIdentifier, username),
+                new Claim(ClaimTypes.Role,username)
+            };
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JwtKey"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            // recommended is 5 min
+            var expires = DateTime.Now.AddDays(Convert.ToDouble(configuration["JwtExpireDays"]));
+            var token = new JwtSecurityToken(
+                configuration["JwtIssuer"],
+                configuration["JwtIssuer"],
+                claims,
+                expires: expires,
+                signingCredentials: credentials
+            );
 
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
     }
 }

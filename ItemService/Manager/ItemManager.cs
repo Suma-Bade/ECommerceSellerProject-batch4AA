@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ItemService.Manager
 {
-    public class ItemManager:IItemManager
+    public class ItemManager : IItemManager
     {
         private readonly IItemRepository _itemRepository;
         public ItemManager(IItemRepository itemRepository)
@@ -25,8 +25,8 @@ namespace ItemService.Manager
 
         public async Task<bool> DeleteItems(int itemid)
         {
-           bool result= await _itemRepository.DeleteItems(itemid);
-           return result;
+            bool result = await _itemRepository.DeleteItems(itemid);
+            return result;
 
         }
         public async Task<bool> UpdateItems(ItemDetails items)
@@ -42,5 +42,5 @@ namespace ItemService.Manager
 
     }
 }
-    
+
 

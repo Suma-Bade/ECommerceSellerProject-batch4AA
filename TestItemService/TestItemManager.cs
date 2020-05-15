@@ -207,7 +207,7 @@ namespace TestItemService
                 mock.Setup(x => x.DeleteItems(itemid)).ReturnsAsync(true);
                 ItemManager itemManager = new ItemManager(mock.Object);
                 var result = await itemManager.DeleteItems(itemid);
-                Assert.AreEqual(true,result);
+                Assert.AreEqual(true, result);
             }
             catch (Exception e)
             {

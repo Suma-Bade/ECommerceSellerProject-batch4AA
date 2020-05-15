@@ -52,7 +52,7 @@ namespace TestItemService
         /// <returns></returns>
         [Test]
         [TestCase(1, "788", "Mobile", "Reliable", 98876, "Good", 1)]
-       
+
         public async Task TestUpdateItems_valid_Returns_True(int itemid, string price, string itemname, string description, int stockno, string remarks, int sellerid)
         {
             try
@@ -102,7 +102,7 @@ namespace TestItemService
             try
             {
                 mockItemManager.Setup(d => d.DeleteItems(itemid)).ReturnsAsync(false);
-                var result =itemController.DeleteItems(itemid);
+                var result = itemController.DeleteItems(itemid);
                 Assert.NotNull(result);
             }
             catch (Exception e)

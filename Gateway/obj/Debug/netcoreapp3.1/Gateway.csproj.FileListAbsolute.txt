@@ -92,3 +92,42 @@ S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\
 S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.csproj.CopyComplete
 S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.dll
 S:\visual studio\ECommerceSellerProject\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.pdb
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\appsettings.json
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Ocelot.json
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.exe
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.deps.json
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.runtimeconfig.json
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.runtimeconfig.dev.json
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Gateway.pdb
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\FluentValidation.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Ocelot.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.csprojAssemblyReference.cache
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.AssemblyInfoInputs.cache
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.AssemblyInfo.cs
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.RazorTargetAssemblyInfo.cache
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.csproj.CopyComplete
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\staticwebassets\Gateway.StaticWebAssets.Manifest.cache
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\staticwebassets\Gateway.StaticWebAssets.xml
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.pdb
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.genruntimeconfig.cache
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.csproj.CoreCompileInputs.cache
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.MvcApplicationPartsAssemblyInfo.cs
+F:\ECommerce\ECommerceSellerProject-batch4AA\Gateway\obj\Debug\netcoreapp3.1\Gateway.MvcApplicationPartsAssemblyInfo.cache

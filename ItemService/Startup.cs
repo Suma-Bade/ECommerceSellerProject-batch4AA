@@ -89,12 +89,13 @@ namespace ItemService
             app.UseRouting();
 
             app.UseAuthorization();
-            app.UseCors("AllowOrigin");
+           
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "ItemService");
             });
+            app.UseCors("AllowOrigin");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

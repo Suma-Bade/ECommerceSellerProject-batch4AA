@@ -159,6 +159,10 @@
             "type": "integer",
             "format": "int32",
             "nullable": true
+          },
+          "imagename": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

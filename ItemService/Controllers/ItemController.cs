@@ -58,20 +58,22 @@ namespace ItemService.Controllers
                 await _manager.UpdateItems(item);
                 return Ok();
             }
-            
+            //return Ok(await _manager.UpdateItems(item));
+
+
 
         }
         [HttpDelete]
         [Route("DeleteItem/{itemid}")]
-     
+
         public async Task<IActionResult> DeleteItems(int itemid)
         {
-            
-               return Ok( await _manager.DeleteItems(itemid));
+
+            return Ok(await _manager.DeleteItems(itemid));
         }
         [HttpGet]
         [Route("ViewItems/{sellerid}")]
-       
+
         public IActionResult ViewItems(int sellerid)
         {
             return Ok(_manager.ViewItems(sellerid));
@@ -81,4 +83,4 @@ namespace ItemService.Controllers
     }
 }
 
-    
+

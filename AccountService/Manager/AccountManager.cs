@@ -24,7 +24,7 @@ namespace AccountService.Manager
         public async Task<SellerLogin> ValidateSeller(string username, string password)
         {
             SellerLogin seller1 = await _iAccountRepository.ValidateSeller(username, password);
-            if (seller1!=null)
+            if (seller1 != null)
             {
                 return seller1;
             }

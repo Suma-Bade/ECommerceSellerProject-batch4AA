@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj": {}
+    "F:\\Ecommerce\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj": {}
   },
   "projects": {
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {
+    "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj",
+        "projectUniqueName": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj",
         "projectName": "SellerService",
-        "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj",
-        "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
-        "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\obj\\",
+        "projectPath": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\SellerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -78,6 +82,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.0.0-rc3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
             }
           },
           "imports": [
@@ -102,20 +110,20 @@
         }
       }
     },
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj": {
+    "F:\\Ecommerce\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj",
+        "projectUniqueName": "F:\\Ecommerce\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj",
         "projectName": "TestSellerService",
-        "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj",
-        "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
-        "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\TestSellerService\\obj\\",
+        "projectPath": "F:\\Ecommerce\\ECommerceSellerProject-batch4AA\\TestSellerService\\TestSellerService.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "F:\\Ecommerce\\ECommerceSellerProject-batch4AA\\TestSellerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,8 +136,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {
-                "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj"
+              "F:\\Ecommerce\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj": {
+                "projectPath": "F:\\Ecommerce\\ECommerceSellerProject-batch4AA\\SellerService\\SellerService.csproj"
               }
             }
           }
@@ -151,9 +159,17 @@
               "target": "Package",
               "version": "[16.4.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.15.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
             },
             "nunit": {
               "target": "Package",

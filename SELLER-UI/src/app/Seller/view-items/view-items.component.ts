@@ -23,7 +23,7 @@ export class ViewItemsComponent implements OnInit {
     //this.list1.push(this.item)
   //console.log(this.item);
   //console.log(this.item.id);
-    let sellerid=Number(localStorage.getItem('Sid'))
+    let sellerid=Number(localStorage.getItem('Sellerid'))
     this.service.ViewItems(sellerid).subscribe(res=>{
       this.list=res;
       console.log(this.list);
@@ -68,8 +68,8 @@ export class ViewItemsComponent implements OnInit {
   })
 }
 
-  Delete(id:number){
-    this.service.DeleteItem(id).subscribe(res=>{
+  Delete(itemid:number){
+    this.service.DeleteItem(itemid).subscribe(res=>{
       alert("record deleted");
       console.log('Record deleted');
     },
@@ -87,7 +87,6 @@ export class ViewItemsComponent implements OnInit {
       localStorage.setItem("itemid",this.list1.itemid.toString())
       this.itemForm.patchValue({
         itemid:Number(this.list1.itemid),
-        
           itemname:this.list1.itemname,
           price:this.list1.price,
           stockno:Number(this.list1.stockno),

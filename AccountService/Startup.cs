@@ -19,6 +19,11 @@ using NLog;
 using AccountService.Manager;
 using System.Reflection;
 
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+
 namespace AccountService
 {
     public class Startup
@@ -47,13 +52,11 @@ namespace AccountService
                          .AllowAnyHeader());
 
             });
-            services.AddMvc(
-                config => {
-                    config.Filters.Add(typeof(CustomExceptionFilter));
-                }
-            );
+
             services.AddSwaggerGen(c =>
             {
+                //c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+                //c.RoutePrefix = string.Empty;
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
@@ -72,11 +75,35 @@ namespace AccountService
                         Url = new Uri("https://seller.com/license"),
                     }
                 });
-                
 
-            }); //services.AddApplicationInsightsTelemetry(Configuration);
-            
+
+            });
+            //services.AddApplicationInsightsTelemetry(Configuration);
+            services.AddMvc(
+                config => {
+                    config.Filters.Add(typeof(CustomExceptionFilter));
+                }
+            );
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(cfg =>
+            {
+                cfg.RequireHttpsMetadata = false;
+                cfg.SaveToken = true;
+                cfg.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidIssuer = Configuration["JwtIssuer"],
+                    ValidAudience = Configuration["JwtIssuer"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwtkey"])),
+                    ClockSkew = TimeSpan.Zero
+                };
+            });
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -87,15 +114,16 @@ namespace AccountService
             }
 
             app.UseRouting();
+            app.UseHttpsRedirection();
 
             app.UseAuthorization();
-            app.UseCors("AllowOrigin");
+            
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Account Service");
             });
-
+            app.UseCors("AllowOrigin");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

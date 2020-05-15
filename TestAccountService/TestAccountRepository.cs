@@ -19,7 +19,7 @@ namespace TestAccountService
             _builder = new DbContextOptionsBuilder<ECommerceDBContext>().EnableSensitiveDataLogging().UseInMemoryDatabase(Guid.NewGuid().ToString());
             ECommerceDBContext eCommerceDBContext = new ECommerceDBContext(_builder.Options);
             AccountRepository = new AccountRepository(eCommerceDBContext);
-            eCommerceDBContext.Seller.Add(new Seller { Sellerid = 700, Username ="kalyani", Password ="kalyani@", Companyname ="infosys", Gst = 47, Aboutcmpy ="gud", Address = "bangalore", Website ="www.infy.com", Email ="priya13@gmail.com", Mobileno ="9535678900"        });
+            eCommerceDBContext.Seller.Add(new Seller { Sellerid = 700, Username = "kalyani", Password = "kalyani@", Companyname = "infosys", Gst = 47, Aboutcmpy = "gud", Address = "bangalore", Website = "www.infy.com", Email = "priya13@gmail.com", Mobileno = "9535678900" });
             eCommerceDBContext.SaveChanges();
         }
 
@@ -36,22 +36,22 @@ namespace TestAccountService
         [TestCase(3778, "pranathi", "pranathi@", "mindtree", 34, "good", "bangalore", "www.mindtree.com", "pranathi@gmail.com", "9123409043")]
         [TestCase(5768, "alekhya", "alekhya!", "tcs", 74, "good", "chennai", "www.tcs.com", "alekhya@gmail.com", "9090473256")]
         [Description("To test whether details of seller are added to database")]
-        public async Task  TestSellerRegister_onSuccess(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
+        public async Task TestSellerRegister_onSuccess(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
         {
             try
             {
                 var seller = new SellerRegister
                 {
-                    Sellerid=sid,
-                    Username=username,
-                    Password=password,
-                    Companyname=companyname,
-                    Gst=gst,
-                    Aboutcmpy=aboutcmpy,
-                    Address=address,
-                    Website=website,
-                    Email=email,
-                    Mobileno=mobileno
+                    Sellerid = sid,
+                    Username = username,
+                    Password = password,
+                    Companyname = companyname,
+                    Gst = gst,
+                    Aboutcmpy = aboutcmpy,
+                    Address = address,
+                    Website = website,
+                    Email = email,
+                    Mobileno = mobileno
                 };
                 await AccountRepository.SellerRegister(seller);
                 var result = AccountRepository.ValidateSeller("pranathi", "pranathi@");
@@ -86,8 +86,8 @@ namespace TestAccountService
                     Email = email,
                     Mobileno = mobileno
                 };
-                var result=await AccountRepository.SellerRegister(seller);
-                Assert.AreEqual(false,result);
+                var result = await AccountRepository.SellerRegister(seller);
+                Assert.AreEqual(false, result);
             }
             catch (Exception e)
             {

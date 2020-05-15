@@ -65,13 +65,14 @@ namespace AccountService.Repositories
                 {
                     Username = user.Username,
                     Password = user.Password,
+                    sellerid = user.Sellerid,
                 };
             }
             else
             {
                 return null;
             }
-            
+
 
         }
     }

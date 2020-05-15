@@ -18,14 +18,14 @@ namespace AccountService.Entities
         public virtual DbSet<Items> Items { get; set; }
         public virtual DbSet<Seller> Seller { get; set; }
 
-//        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//        {
-//            if (!optionsBuilder.IsConfigured)
-//            {
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-//                optionsBuilder.UseSqlServer("Data Source=DESKTOP-S3RV3MH\\SQLEXPRESS;Initial Catalog=ECommerceDB;Integrated Security=True");
-//            }
-//        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer("Data Source=DESKTOP-S3RV3MH\\SQLEXPRESS;Initial Catalog=ECommerceDB;Integrated Security=True");
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -40,6 +40,11 @@ namespace AccountService.Entities
 
                 entity.Property(e => e.Description)
                     .HasColumnName("description")
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Imagename)
+                    .HasColumnName("imagename")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 

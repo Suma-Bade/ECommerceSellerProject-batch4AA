@@ -43,6 +43,11 @@ namespace ItemService.Entities
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
+                entity.Property(e => e.Imagename)
+                    .HasColumnName("imagename")
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.Itemname)
                     .IsRequired()
                     .HasColumnName("itemname")

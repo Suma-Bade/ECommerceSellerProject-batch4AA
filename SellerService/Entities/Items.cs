@@ -12,6 +12,7 @@ namespace SellerService.Entities
         public int? Stockno { get; set; }
         public string Remarks { get; set; }
         public int? Sellerid { get; set; }
+        public string Imagename { get; set; }
 
         public virtual Seller Seller { get; set; }
     }

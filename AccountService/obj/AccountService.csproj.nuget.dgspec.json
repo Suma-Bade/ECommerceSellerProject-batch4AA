@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {}
+    "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {}
   },
   "projects": {
-    "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {
+    "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj",
+        "projectUniqueName": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj",
         "projectName": "AccountService",
-        "projectPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj",
-        "packagesPath": "C:\\Users\\win8.1\\.nuget\\packages\\",
-        "outputPath": "F:\\ECommerceSellerProject\\ECommerceSellerProject-batch4AA\\AccountService\\obj\\",
+        "projectPath": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\AccountService\\AccountService.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\AccountService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\win8.1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,10 @@
             "Microsoft.AspNet.WebApi.Cors": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -78,6 +82,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.0.0-rc3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
             }
           },
           "imports": [

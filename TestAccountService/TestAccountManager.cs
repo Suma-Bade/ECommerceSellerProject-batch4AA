@@ -28,12 +28,12 @@ namespace TestAccountService
         /// Testing register seller functionality for a new seller
         /// </summary>
         [Test]
-        [TestCase(9090, "parnitha", "parnitha@", "virtusa",789890, "good", "bangalore", "www.virtusa.com", "parnitha@gmail.com", "9123479543")]
+        [TestCase(9090, "parnitha", "parnitha@", "virtusa", 789890, "good", "bangalore", "www.virtusa.com", "parnitha@gmail.com", "9123479543")]
         //[TestCase("aarush", "aarush!", "tcs", "good", "chennai", "www.tcs.com", "aarush@gmail.com", "9973473256")]
         [Description("Test for SellerRegistration Success")]
         public async Task TestSellerRegister(int sid, string username, string password, string companyname, int gst, string aboutcmpy, string address, string website, string email, string mobileno)
         {
-            
+
             try
             {
                 var seller = new SellerRegister { Sellerid = sid, Username = username, Password = password, Companyname = companyname, Gst = gst, Aboutcmpy = aboutcmpy, Address = address, Website = website, Email = email, Mobileno = mobileno };
@@ -42,7 +42,7 @@ namespace TestAccountService
                 AccountManager accountManager = new AccountManager(mock.Object);
                 var result = await accountManager.SellerRegister(seller);
                 Assert.IsNotNull(result, "test method failed SellerRegister method is null");
-                Assert.AreEqual(true,result);
+                Assert.AreEqual(true, result);
             }
             catch (Exception e)
             {
@@ -68,7 +68,7 @@ namespace TestAccountService
                 AccountManager accountManager = new AccountManager(mock.Object);
                 var result = await accountManager.SellerRegister(seller);
                 Assert.IsNotNull(result, "test method failed SellerRegister method is null");
-                Assert.AreEqual(false,result);
+                Assert.AreEqual(false, result);
             }
             catch (Exception e)
             {
@@ -80,18 +80,18 @@ namespace TestAccountService
         // <summary>
         /// Service should return seller if correct usename and password is supplied
         /// </summary>
-        [TestCase("rahul","rahul123")]
-        [TestCase("pranitha","pranitha@")]
+        [TestCase("rahul", "rahul123")]
+        [TestCase("pranitha", "pranitha@")]
         [Description("Seller Login Success returns seller details")]
-        public async Task SellerLogin_Success(string username,string password)
+        public async Task SellerLogin_Success(string username, string password)
         {
             try
             {
-                var seller = new SellerLogin ();
+                var seller = new SellerLogin();
                 var mock = new Mock<IAccountRepository>();
-                mock.Setup(x => x.ValidateSeller(username,password)).ReturnsAsync(seller);
+                mock.Setup(x => x.ValidateSeller(username, password)).ReturnsAsync(seller);
                 AccountManager accountManager = new AccountManager(mock.Object);
-                var result = await accountManager.ValidateSeller(username,password);
+                var result = await accountManager.ValidateSeller(username, password);
                 Assert.IsNotNull(result, "test method fail SellerLogin method is null");
             }
             catch (Exception e)
@@ -100,9 +100,9 @@ namespace TestAccountService
             }
         }
         [Test]
-        [TestCase("renu","renu23")]
+        [TestCase("renu", "renu23")]
         [Description("Seller Login UnSuccess")]
-        public async Task SellerLogin_Unsuccess(string username,string password)
+        public async Task SellerLogin_Unsuccess(string username, string password)
         {
             try
             {
@@ -121,4 +121,4 @@ namespace TestAccountService
 
     }
 }
-  
+

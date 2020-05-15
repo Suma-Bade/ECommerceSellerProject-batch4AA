@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj": {}
+    "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj": {}
   },
   "projects": {
-    "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj": {
+    "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj",
+        "projectUniqueName": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj",
         "projectName": "Gateway",
-        "projectPath": "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\NewSeller\\ECommerceSellerProject-batch4AA\\Gateway\\obj\\",
+        "projectPath": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\Gateway\\Gateway.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "F:\\ECommerce\\ECommerceSellerProject-batch4AA\\Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -42,9 +41,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Ocelot": {
               "target": "Package",
               "version": "[15.0.6, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
             }
           },
           "imports": [
@@ -65,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

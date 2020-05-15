@@ -16,7 +16,7 @@ export class ViewProfileComponent implements OnInit {
   id:number;
   item:Items;
       constructor(private frombuilder:FormBuilder,private service:SellerService,private route:Router) {
-        this.id=JSON.parse(localStorage.getItem('Sid')) ;
+        this.id=JSON.parse(localStorage.getItem('Sellerid')) ;
        }
     
       ngOnInit() {

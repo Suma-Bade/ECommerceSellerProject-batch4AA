@@ -1,0 +1,71 @@
+2020-05-15 10:02:25.3773||DEBUG|AccountService.Program|init main function 
+2020-05-15 10:02:40.1356|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-15 10:02:56.7663||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:03:02.5618|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at AccountService.Controllers.AccountController.GenerateJwtToken(String username) in F:\ECommerce\ECommerceSellerProject-batch4AA\AccountService\Controllers\AccountController.cs:line 98
+   at AccountService.Controllers.AccountController.SellerLogin(String username, String password) in F:\ECommerce\ECommerceSellerProject-batch4AA\AccountService\Controllers\AccountController.cs:line 80
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-15 10:17:32.3350||DEBUG|AccountService.Program|init main function 
+2020-05-15 10:17:36.0357|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-15 10:18:13.1059||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:18:18.7220||INFO|AccountService.Controllers.AccountController|Welcomesuma 
+2020-05-15 10:19:27.1871||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:19:27.4765||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 10:21:19.4536||DEBUG|AccountService.Program|init main function 
+2020-05-15 10:21:21.8460|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-15 10:21:33.3667||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:21:36.4148||INFO|AccountService.Controllers.AccountController|Welcomesuma 
+2020-05-15 10:21:57.0814||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:21:57.4337||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 10:21:57.4530||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:21:57.4723||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 10:41:02.9860||DEBUG|AccountService.Program|init main function 
+2020-05-15 10:41:06.5783|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-15 10:41:16.5629||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:41:19.6202||INFO|AccountService.Controllers.AccountController|Welcomesuma 
+2020-05-15 10:41:51.1914||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:41:51.5761||INFO|AccountService.Controllers.AccountController|Welcomesuma 
+2020-05-15 10:42:19.5826||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:42:19.6356||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 10:42:19.6977||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:42:19.8093||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 10:50:03.5843||DEBUG|AccountService.Program|init main function 
+2020-05-15 10:50:08.0114|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-15 10:54:25.3025||DEBUG|AccountService.Program|init main function 
+2020-05-15 10:54:26.3676|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-15 10:54:30.1313||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 10:54:34.2953||INFO|AccountService.Controllers.AccountController|Welcomesuma 
+2020-05-15 11:34:22.3824||DEBUG|AccountService.Program|init main function 
+2020-05-15 11:34:27.0784|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-15 11:34:27.5743||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 11:34:30.2411||INFO|AccountService.Controllers.AccountController|Welcomesuma 
+2020-05-15 11:34:54.8074||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 11:34:55.0523||INFO|AccountService.Controllers.AccountController|Welcomesuma 
+2020-05-15 11:37:39.0349||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 11:37:39.2399||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 11:37:39.3006||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 11:37:39.3346||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 12:27:31.9550||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 12:27:33.2731||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 12:27:33.3716||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 12:27:33.4104||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 13:01:02.3438||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 13:01:07.0543||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
+2020-05-15 13:01:07.2398||INFO|AccountService.Controllers.AccountController|User Login 
+2020-05-15 13:01:07.3389||INFO|AccountService.Controllers.AccountController|Welcomeparnitha 
